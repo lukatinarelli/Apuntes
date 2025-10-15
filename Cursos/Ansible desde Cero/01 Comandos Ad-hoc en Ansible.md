@@ -104,3 +104,6 @@ ansible all -m apt -a "name=nginx state=present update_cache=yes" -b
 > 
 > Se recomienda usar state=latest con precaución en entornos de producción (puede romper dependencias).
 
+---
+
+[🔙 Volver al índice](00%20Índice.md)

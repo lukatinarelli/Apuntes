@@ -36,4 +36,6 @@ ansible all -m apt -a "name=nginx state=present" -b
 > - Si el usuario tiene permiso `NOPASSWD` en `/etc/sudoers`, Ansible no pedirá contraseña.
 > - Si el comando falla con “permission denied”, revisa que el usuario esté autorizado en el archivo `sudoers`.
 
+---
 
+[🔙 Volver al índice](00%20Índice.md)

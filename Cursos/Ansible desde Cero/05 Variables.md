@@ -122,3 +122,7 @@ hosts_info:
     memoria: 16GB  # Para acceder a la memoria del primer 
     host: {{ hosts_info[0].memoria }}  # "8GB"
 ```
+
+---
+
+[🔙 Volver al índice](00%20Índice.md)
