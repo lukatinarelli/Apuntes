@@ -84,34 +84,3 @@ ansible_winrm_server_cert_validation=ignore
 | `win_file`    | Gestionar archivos y directorios (crear, eliminar, modificar atributos). |
 | `win_command` | Ejecutar comandos en Windows.                                            |
 | `win_shell`   | Ejecutar scripts de PowerShell o shell de Windows.                       |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Ejemplo práctico: crear un directorio y dar permisos
-```YAML
-- name: Crear carpeta en Windows
-  ansible.windows.win_file:
-    path: C:\temp\ejemplo
-    state: directory
-
-- name: Dar permisos a un usuario
-  ansible.windows.win_acl:
-    path: C:\temp\ejemplo
-    user: Administrador
-    permission: FullControl
-    state: present
-```
-
