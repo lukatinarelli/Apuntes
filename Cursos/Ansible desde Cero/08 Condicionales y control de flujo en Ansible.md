@@ -1,9 +1,9 @@
 # Índice de la sección
 - [Condiciones `when`](#condiciones-when)
-- [Bucles `loop` y `until`](#bucles%20loop%20y%20until)
+- [Bucles `loop` y `until`](#bucles-loop-y-until)
 - [Handlers](#handlers)
 - [Bloques](#bloques)
-- [Otros conceptos](#otros%20conceptos)
+- [Otros conceptos](#otros-conceptos)
 
 ---
 # Condiciones `when`
