@@ -1,5 +1,5 @@
 # Índice de la sección
-- [Condiciones `when`](#condiciones%20when)
+- [Condiciones `when`](#condiciones-when)
 - [Bucles `loop` y `until`](#bucles%20loop%20y%20until)
 - [Handlers](#handlers)
 - [Bloques](#bloques)
