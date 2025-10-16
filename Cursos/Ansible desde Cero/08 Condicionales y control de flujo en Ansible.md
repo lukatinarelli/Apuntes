@@ -86,3 +86,24 @@ tasks:
 ```
 
 - Útil en tareas donde un fallo no es crítico.
+
+---
+# Ignorar servidores parados
+- Cuando en un Playbook hay una servidor parado y no puede acceder podemos especificar la clausula `ignore_unraechable`
+```YAML
+---
+- name: Práctica con variables
+  hosts: all
+  ignore_unreachable: true
+
+  tasks:
+  - name: Mensaje de prueba
+    debug:
+      msg: "Mensaje de prueba"
+
+  - name: Visualizar directorio principal
+    command: 
+      cmd: "ls -l /"
+```
+
+- Puedes poner la clausula `ignore_unreachable` a nivel de tarea
