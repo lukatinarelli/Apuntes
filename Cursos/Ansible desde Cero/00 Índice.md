@@ -6,3 +6,4 @@
 - [04 - Playbooks](04%20Playbooks.md)
 - [05 - Variables](05%20Variables.md)
 - [06 - Módulos de Ansible](06%20Módulos%20de%20Ansible.md)
+- [07 - Trabajar con Windows](07%20Trabajar%20con%20Windows.md)
