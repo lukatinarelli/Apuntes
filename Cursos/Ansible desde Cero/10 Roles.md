@@ -204,3 +204,7 @@ Se pueden usar en **plays** o dentro de **tasks**, de forma estática o dinámic
 
 - En este caso, las tareas **antes del include** se ejecutan primero, luego se ejecutan **todas las tareas del role**, y finalmente las tareas posteriores al include.
 - Si se incluye el role de forma dinámica, **las variables solo existen dentro de esa tarea**, y otras tareas fuera del include no tendrán acceso a ellas.
+
+---
+
+[🔙 Volver al índice](00%20Índice.md)
