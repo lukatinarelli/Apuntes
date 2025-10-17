@@ -1,4 +1,4 @@
-# 🐧 Identificación y Gestión de Usuarios
+# 👤 Identificación y Gestión de Usuarios
 
 ### 🔐 El Sistema de Usuarios en Linux
 El acceso y los **permisos** en Linux se rigen por un estricto modelo de identidad numérica.
