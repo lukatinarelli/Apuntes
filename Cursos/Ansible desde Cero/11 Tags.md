@@ -1,10 +1,10 @@
 # Índice de la sección
 - [Introducción a los Tags](#introducci%C3%B3n-a-los-tags)
 - [Creación de Etiquetas](#creaci%C3%B3n-de-etiquetas)
-	- [Ejemplo de playbook con Tags](#ejemplo-de-tags)
+	- [Ejemplo de playbook con Tags](#ejemplo-de-playbook-con-tags)
 - [Trabajar y Listar Etiquetas](#trabajar-y-listar-etiquetas)
 - [Saltar Etiquetas](#saltar-etiquetas)
-- [Etiquetas especiales](#etiquetas-especiales:-never-y-always)
+- [Etiquetas especiales](#etiquetas-especiales-never-y-always)
 - [Uso de Etiquetas en Play y Roles](#uso-de-etiquetas-en-play-y-roles)
 - [Otros Conceptos](#otros-conceptos)
 
@@ -27,27 +27,27 @@
   - name: Preparar desarrollo     
     debug:       
       msg: "Preparar el entorno de desarrollo"     
-    tags:       
-      - desarrollo    
+    tags:
+      - desarrollo
 
-  - name: Preparar producción     
-	debug:       
-	  msg: "Preparar el entorno de producción"     
-	tags:       
-	  - produccion    
+   - name: Preparar producción
+    debug:
+      msg: "Preparar el entorno de producción"
+    tags:
+      - produccion
 
-  - name: Instalar MySQL     
-	debug:       
-	  msg: "Instalando MySQL"     
-	tags:       
+   - name: Instalar MySQL
+    debug:
+      msg: "Instalando MySQL"
+    tags:
       - desarrollo       
-	  - produccion    
+      - produccion
 
-  - name: Instalar herramientas de desarrollo     
-	debug:       
-	  msg: "Instalar herramientas de desarrollo"     
-	tags:       
-	  - desarrollo    
+   - name: Instalar herramientas de desarrollo
+    debug:
+      msg: "Instalar herramientas de desarrollo"
+    tags:
+      - desarrollo  
 
    - name: Configurar seguridad de producción     
     debug:       
@@ -55,12 +55,12 @@
     tags:       
       - produccion    
 
-  - name: Desplegar aplicación     
-	debug:       
-	  msg: "Desplegar aplicación"     
-	tags:       
-	  - desarrollo       
-	  - produccion
+   - name: Desplegar aplicación
+    debug:
+      msg: "Desplegar aplicación"
+    tags:
+      - desarrollo       
+      - produccion
 ```
 Para ejecutar solo las tareas con una etiqueta concreta:
 ```BASH
