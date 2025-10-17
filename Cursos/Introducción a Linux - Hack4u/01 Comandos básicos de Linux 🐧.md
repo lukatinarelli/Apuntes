@@ -42,6 +42,26 @@ La gestión de usuarios es crítica en seguridad (Pentesting):
 | **`cd`**     | Cambia el directorio de trabajo.                                               | `cd ..` (subir un nivel), `cd ~` (ir a _Home_).          |
 
 ---
+# 📂 Creación y Gestión de Archivos/Directorios
+### Creación
+| **Comando**                    | **Función**                                                                                               | **Notas de Uso**                                                                          |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| **`touch <archivo>`**          | Crea un archivo **vacío**. Si ya existe, actualiza su **marca de tiempo** (fecha y hora de modificación). | Útil para crear rápidamente archivos temporales o actualizar fechas.                      |
+| **`mkdir <directorio>`**       | Crea un **directorio** (carpeta).                                                                         |                                                                                           |
+| **`mkdir -p <ruta/completa>`** | Crea un directorio y, si los **padres** (directorios superiores) no existen, también los crea.            | `-p` de _parents_. Ideal para crear estructuras de directorios complejas de una sola vez. |
+### Copiar, Mover, Borrar
+| **Comando**                 | **Función**                                                                   | **Notas de Uso (ASIR)**                                                        |
+| --------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **`cp <origen> <destino>`** | **Copia** archivos o directorios (recursivamente con `-r`).                   | **Backups o plantillas:** `cp -r /var/www/html /tmp/backup/`.                  |
+| **`mv <origen> <destino>`** | **Mueve** archivos. También se usa para **renombrar** archivos y directorios. | **Organización:** `mv config.bak config.old`.                                  |
+| **`rm <archivo>`**          | **Elimina** archivos.                                                         |                                                                                |
+| **`rm -r <directorio>`**    | **Elimina directorios** de forma **recursiva**.                               | 🚨 **¡Peligro!** No pide confirmación. El comando `rm -rf /` es el más temido. |
+| **`rmdir <directorio>`**    | Elimina un directorio **solo si está vacío**.                                 | Más seguro que `rm -r`, pero menos práctico.                                   |
+> [!WARNING] Borrado en Linux
+> 
+> En Linux, el comando rm elimina el archivo permanentemente (lo desvincula del sistema de archivos). No existe una "Papelera de Reciclaje" por defecto en la shell. ¡Úsalo con cautela!
+
+---
 # 📝 Manipulación de Texto y Salida
 | **Comando**   | **Función**                                                                                 | **Notas**                                                                                       |
 | ------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
