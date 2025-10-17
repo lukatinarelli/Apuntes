@@ -82,7 +82,7 @@ Se pueden usar en **plays** o dentro de **tasks**, de forma estática o dinámic
 	```Bash
 	ansible-galaxy init desarrollo
 	```
-- Este comando creara un directorio llamado desarrollo con la misma [estructura](###Estructura-de-los-Roles) vista anteriormente.
+- Este comando creara un directorio llamado desarrollo con la misma [estructura](#estructura-de-los-roles) vista anteriormente.
 
 
 
