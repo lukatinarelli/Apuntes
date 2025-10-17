@@ -1,6 +1,6 @@
 # Índice de la sección
-- [Introducción a los Roles](#introduccion-a-los-roles)
-- [Creación de Roles](#creacion-de-roles)
+- [Introducción a los Roles](#introducción-a-los-roles)
+- [Creación de Roles](#creación-de-roles)
 - [Variables y Roles](#variables-y-roles)
 - [Handlers en Roles](#handlers-en-roles)
 - [Pre y Post Tasks](#pre-y-post-tasks)
