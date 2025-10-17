@@ -7,3 +7,6 @@
 - [05 - Variables](05%20Variables.md)
 - [06 - Módulos de Ansible](06%20Módulos%20de%20Ansible.md)
 - [07 - Trabajar con Windows](07%20Trabajar%20con%20Windows.md)
+- [08 - ](.md)
+- [09 - ](.md)
+- [10 - Roles](10%20Roles.md)
