@@ -1,95 +1,136 @@
 # Índice de la sección
 - [Introducción a Jinja2](#introducci%C3%B3n-a-jinja2)
-- [Usara Jinja2 En Ansible](#usar-jinja2-en-ansible)
+- [Usar Jinja2 en Ansible](#usar-jinja2-en-ansible)
 - [Condiciones en Jinja2](#condiciones-en-jinja2)
 - [Operadores Lógicos](#operadores-l%C3%B3gicos)
 - [Bucles](#bucles)
 - [Filtros](#filtros)
-
-
 - [Otros Conceptos](#otros-conceptos)
-- [ejemplo](#ejemplo)
+	- [Ejemplo](#ejemplo)
 
 ---
 # Introducción a Jinja2
-- Los **tags** permiten **controlar qué tareas se ejecutan o se omiten** dentro de un playbook.    
-- Son una forma **más sencilla y directa que `when`** para segmentar tareas por tipo, entorno o propósito.
-- Se pueden aplicar a **tareas, plays o roles completos**.
+- **Jinja2** es un **motor de plantillas** usado en Ansible.
+- Rápido, eficiente y muy potente.
+- Permite usar **placeholders**, condicionales, bucles y expresiones similares a Python.
+- Se utiliza para **generar dinámicamente archivos de texto** (configuraciones, páginas, scripts...).
+### Plantillas Jinja2
+- Funciona como cualquier motor de plantillas:  
+    ![[Plantillas Jinja2.png]]
+- Jinja2 recibe datos de Ansible mediante **doble llave**:
+	```Jinja2
+	{{ ansible_distribution }}
+	```
+- Comentarios dentro de plantillas:
+	```Jinja2
+	{# Esto es un comentario #}
+	```
+- Comandos de control (condicionales, bucles, etc.):
+	```Jinja2
+	{% comando %}
+	```
+
 ---
 # Usar Jinja2 en Ansible
-- Se definen dentro de cada tarea, bajo la clave `tags`.
-- Puedes asignar **una o varias etiquetas** a cada tarea.
-### Ejemplo de playbook con Tags
-```YAML
---- 
-- name: Trabajar con TAGS   
-  hosts: debian1    
-  
-  tasks:   
-  - name: Preparar desarrollo     
-    debug:       
-      msg: "Preparar el entorno de desarrollo"     
-    tags:
-      - desarrollo
+- Creamos un archivo `.j2` con la plantilla. Ejemplo: `plantilla.j2`:
+	```Jinja2
+	Hola {{ ansible_hostname }} 
+	Hoy es {{ ansible_date_time.date }}
+	```
+- En el playbook usamos el módulo `template`:
+	```YAML
+	---
+	- name: Trabajar con Jinja2
+	  hosts: debian1
+	
+	  tasks:
+	  - name: Generar salida desde plantilla
+	    template:
+	      src: plantilla.j2
+	      dest: /tmp/salida.txt
 
-   - name: Preparar producción
-    debug:
-      msg: "Preparar el entorno de producción"
-    tags:
-      - produccion
-
-   - name: Instalar MySQL
-    debug:
-      msg: "Instalando MySQL"
-    tags:
-      - desarrollo       
-      - produccion
-
-   - name: Instalar herramientas de desarrollo
-    debug:
-      msg: "Instalar herramientas de desarrollo"
-    tags:
-      - desarrollo  
-
-   - name: Configurar seguridad de producción     
-    debug:       
-      msg: "Instalar el entorno de seguridad"     
-    tags:       
-      - produccion    
-
-   - name: Desplegar aplicación
-    debug:
-      msg: "Desplegar aplicación"
-    tags:
-      - desarrollo       
-      - produccion
-```
-Para ejecutar solo las tareas con una etiqueta concreta:
-```BASH
-ansible-playbook main.yaml -t desarrollo
-```
+	```
+- Resultado en `/tmp/salida.txt`:
+	```/tmp/salida.txt
+	Hola debian1 
+	Hoy es 2025-10-20
+	```
 
 ---
 # Condiciones en Jinja2
-Ver todas las **etiquetas disponibles** en un playbook:
-```BASH
-ansible-playbook main.yaml --list-tasks -t desarrollo
+- Los condicionales son equivalentes a los de Ansible:  
+    `==`, `!=`, `>`, `<`, `>=`, `<=`
+- Sintaxis:
+	```Jinja2
+	{% if condicion %}
+	  ...
+	{% elif otra_condicion %}
+	  ...
+	{% else %}
+	  ...
+	{% endif %}
+	```
+### Ejemplo: página web según sistema operativo
+#### Playbook:
+```YAML
+---
+- name: Configurar página web según OS
+  hosts:
+    - debian1
+    - rocky1
+
+  tasks:
+  - name: Instalar Apache en Debian
+    apt:
+      name: apache2
+      state: present
+    when: ansible_distribution == 'Debian'
+
+  - name: Instalar Apache en Rocky
+    dnf:
+      name: httpd
+      state: present
+    when: ansible_distribution == 'Rocky'
+
+  - name: Copiar página web
+    template:
+      src: condicionales.j2
+      dest: /var/www/html/index.html
+
+  - name: Arrancar Apache en Debian
+    service:
+      name: apache2
+      state: started
+    when: ansible_distribution == 'Debian'
+
+  - name: Arrancar Apache en Rocky
+    service:
+      name: httpd
+      state: started
+    when: ansible_distribution == 'Rocky'
 ```
-Ver qué tareas se ejecutarían con una **etiqueta concreta**:
-```BASH
-ansible-playbook main.yaml --list-tasks -t desarrollo
+#### Plantilla `condicionales.j2`:
+```Jinja2
+<h1>Bienvenido a mi página WEB en Ansible</h1>
+
+{% if ansible_distribution == 'Debian' %}
+  <h2>Estoy en una máquina Debian</h2>
+{% endif %}
+
+{% if ansible_distribution == 'Rocky' %}
+  <h2>Estoy en una máquina Rocky</h2>
+{% endif %}
 ```
 
 ---
 # Operadores Lógicos
-- Puedes **excluir tareas** con ciertas etiquetas usando `--skip-tags`:    
-```BASH
-ansible-playbook main.yaml --skip-tags desarrollo
+Jinja2 usa los habituales operadores lógicos como:
+- AND
+- NOT
+- OR...
+
 ```
 
-- También puedes omitir varias etiquetas:
-```BASH
-ansible-playbook main.yaml --skip-tags desarrollo
 ```
 
 ---
