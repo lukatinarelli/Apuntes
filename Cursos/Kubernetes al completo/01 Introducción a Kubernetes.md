@@ -42,7 +42,8 @@ OCI define dos estándares principales:
 1. **Runtime Specification (runtime-spec)**: cómo se ejecutan los contenedores.  
 2. **Image Specification (image-spec)**: cómo deben ser las imágenes de los contenedores.
 
-	![[Esquema OCI.png]]
+	![Esquema OCI](Imágenes/Esquema%20OCI.png)
+
 ### OCI Image Specification
 Define cómo se estructura una imagen de contenedor:
 - **Sistema de archivos en capas**: las capas se van agregando para construir la imagen final.
