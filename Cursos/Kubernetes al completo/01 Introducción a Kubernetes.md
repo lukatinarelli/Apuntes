@@ -9,7 +9,6 @@
 - [Cloud Native Computing Foundation (CNCF)](#cloud-native-computing-foundation-cncf)
 - [Arquitectura de Kubernetes](#arquitectura-de-kubernetes)
 
-
 ---
 # Introducción a Kubernetes
 Kubernetes comenzó en **julio de 2015** y fue donado a la **Cloud Native Computing Foundation (CNCF)**.
