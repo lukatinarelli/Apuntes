@@ -10,7 +10,7 @@ Kubectl es una **herramienta en modo comando** que nos permite trabajar y gestio
 
 Es totalmente **agnóstica**, no es un producto que viene con algún fabricante. Es una herramienta promocionada por la comunidad de Kubernetes y se conecta con cualquier distribución del Kubernetes
 
-> [🔗 Link de instalación](https://kubernetes.io/docs/tasks/tools/)
+> 🔗 [Link de instalación](https://kubernetes.io/docs/tasks/tools/)
 
 ---
 # Instalar Kubectl
@@ -29,7 +29,7 @@ Para instalar kubectl se puede descargar a través del anterior enlace pero para
 	sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 	```
 
-> [🔗 Guía de instalación más detallada](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
+> 🔗 [Guía de instalación más detallada](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 ### Instalar kubectl binario en Windows
 En este enlace tienes la guía completa para instalar:
 https://kubernetes.io/docs/tasks/tools/install-kubectl-windows
