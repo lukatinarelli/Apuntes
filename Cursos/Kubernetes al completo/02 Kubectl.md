@@ -36,4 +36,4 @@ https://kubernetes.io/docs/tasks/tools/install-kubectl-windows
 
 ---
 
-[🔙 Volver al índice](00%20Índice.md)
+[🔙 Volver al índice](Cursos/Kubernetes%20al%20completo/00%20Índice.md)

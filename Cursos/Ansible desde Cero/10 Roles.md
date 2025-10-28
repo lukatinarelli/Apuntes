@@ -207,4 +207,4 @@ Se pueden usar en **plays** o dentro de **tasks**, de forma estática o dinámic
 
 ---
 
-[🔙 Volver al índice](00%20Índice.md)
+[🔙 Volver al índice](Cursos/Ansible%20desde%20Cero/00%20Índice.md)

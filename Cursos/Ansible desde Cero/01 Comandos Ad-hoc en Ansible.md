@@ -106,4 +106,4 @@ ansible all -m apt -a "name=nginx state=present update_cache=yes" -b
 
 ---
 
-[🔙 Volver al índice](00%20Índice.md)
+[🔙 Volver al índice](Cursos/Ansible%20desde%20Cero/00%20Índice.md)

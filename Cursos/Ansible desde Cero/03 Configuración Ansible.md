@@ -75,4 +75,4 @@ all:
 
 ---
 
-[🔙 Volver al índice](00%20Índice.md)
+[🔙 Volver al índice](Cursos/Ansible%20desde%20Cero/00%20Índice.md)
