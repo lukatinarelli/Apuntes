@@ -2,7 +2,7 @@
 - [01 - Introducción a Kubernetes](01%20Introducción%20a%20Kubernetes.md)
 - [02 - Kubectl](02%20Kubectl.md)
 - [03 - Minikube](03%20Minikube.md)
-- [04 - Playbooks](04%20Playbooks.md)
+- [04 - PODS](04%20PODS.md)
 - [05 - Variables](05%20Variables.md)
 - [06 - Módulos de Ansible](06%20Módulos%20de%20Ansible.md)
 - [07 - Trabajar con Windows](07%20Trabajar%20con%20Windows.md)
