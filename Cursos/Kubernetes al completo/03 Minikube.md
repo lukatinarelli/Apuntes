@@ -81,6 +81,7 @@ Ejecuta Kubernetes en un entorno de **virtualización o de contenedores (Docker)
 ```BASH
 ❯ minikube status minikube type: Control Plane host: Stopped kubelet: Stopped apiserver: Stopped kubeconfig: Stopped
 ``` 
+
 ---
 # Crear un clúster con múltiples nodos
 Puedes crear un clúster con más de un nodo usando el flag `--nodes`:

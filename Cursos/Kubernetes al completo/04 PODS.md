@@ -55,7 +55,6 @@ kubectl get pods
 > 💡 Añade la opción `-o wide` para mostrar información adicional (nodo, IP, etc.)
 
 ---
-
 # Propiedades de un Pod
 
 Para visualizar las propiedades detalladas de un Pod:
@@ -66,38 +65,57 @@ kubectl describe pod/<nombre-pod>
 > ⚠️ **Importante:** recuerda anteponer la palabra clave `pod/` antes del nombre del Pod.
 
 ---
-# Ejecutar comandos contra un POD
-Para lanzar comandos contra los contenedores que están dentro de los PODS es exactamente igual a los comandos de docker:
+# Ejecutar comandos en un Pod
+Para ejecutar comandos dentro de los contenedores que están dentro de los **Pods**, el procedimiento es muy similar al de Docker:
+
 ```bash
-kubectl exec [nombrePOD] [comando]
+kubectl exec <nombre-pod> <comando>
 ```
-Esta es la forma estándar para lanzar comandos. Aunque ya esta _DEPRECATED_ y en una futura version se eliminará por lo que hay que añadir "--" antes del comando a realizar, este es un ejemplo:
+
+Esta era la forma estándar de ejecutar comandos, pero ha quedado obsoleta (deprecated). En las versiones más recientes de Kubernetes es necesario añadir -- antes del comando a ejecutar:
+
 ```bash
 kubectl exec nginx1 -- ls
 ```
 
-Para entrar en modo interactivo podemos poner:
+Para entrar en modo interactivo dentro del contenedor (por ejemplo, una consola Bash), usamos:
 ```bash
-kubectl exec nginx -it --bash
+kubectl exec -it nginx1 -- bash
 ```
-De esta forma entramos en una bash dentro de nuestro contenedor y con exit podemos salir y volver a nuestra terminal.
+
+De esta forma accedemos a una bash dentro del contenedor.
+Para salir, simplemente usamos el comando exit y regresamos a nuestra terminal local.
 
 ---
-# Logs de PODs
-Vamos a craer primero un POD basado en apache para poder manejar logs:
+# Logs de Pods
+Podemos crear un Pod basado en Apache para practicar con los logs:
+
 ```bash
 kubectl run apache --image=httpd --port=8080
 ```
 
-> [!Note] Con `--port` también podemos especificar en que puerto queremos el POD
+>💡 Con la opción --port indicamos el puerto en el que el contenedor expondrá su servicio.
 
-Ya con el servicio servicio de apache podemos usar el siguente comando para ver los logs:
+Una vez creado, podemos ver los logs del Pod con:
+
 ```bash
 kubectl logs apache
 ```
 
-> [!Note] Si añadimos la flag `-f` los logs se mentienen y se acutalizaran
+>💡 Si añadimos la flag -f, los logs se mostrarán en tiempo real (modo follow):
 
-Kubectl tiene muchas mas opciones para ver los logs, como `--tail=X` para ver ciertas lineas del logs o la flag  `--??` no me se mas
+```bash
+kubectl logs -f apache
+```
+
+Kubernetes ofrece otras opciones útiles para trabajar con logs:
+- **--tail=N** → muestra solo las **últimas N líneas**.
+- **--since=10m** → muestra los logs generados en los **últimos 10 minutos**.
+- **-c [nombre-contenedor]** → en Pods con varios contenedores, permite seleccionar **de cuál obtener los logs**.
+#### Ejemplo:
+```bash
+kubectl logs apache --tail=20
+```
 
 ---
+# Kubectl proxy
