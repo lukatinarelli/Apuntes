@@ -33,8 +33,6 @@ Ejecuta Kubernetes en un entorno de **virtualización o de contenedores (Docker)
 - `kubectl`
 - Hypervisor o container runtime (Docker, VirtualBox, VMware, etc.)
 - Si usas un hypervisor, **activa VT-x / AMD-V** en la BIOS
-
----
 ### Instalar Minikube en Windows con VirtualBox
 1. Crear el directorio y descargar el instalador:
 	```PowerShell
