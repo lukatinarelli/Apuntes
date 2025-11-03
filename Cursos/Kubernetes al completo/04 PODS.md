@@ -1,7 +1,7 @@
 # Índice de la sección
 - [Introducción a los Pods](#-introducci%C3%B3n-a-los-pods)
 - [Pods con varios contenedores](#-pods-con-varios-contenedores)
-- [Crear un Pod](#-crear-un-pod)
+- [Crear un Pod](#%EF%B8%8F-crear-un-pod)
 - [Propiedades de un Pod](#-propiedades-de-un-pod)
 - [Ejecutar comandos en un Pod](#-ejecutar-comandos-en-un-pod)
 - [Logs de Pods](#-logs-de-pods)
