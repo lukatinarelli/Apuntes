@@ -1,14 +1,14 @@
 # Índice de la sección
-- [Introducción a los Pods](#introducci%C3%B3n-a-los-pods)
-- [Pods con varios contenedores](#pods-con-varios-contenedores)
-- [Crear un Pod](#crear-un-pod)
-- [Propiedades de un Pod](#propiedades-de-un-pod)
-- [Ejecutar comandos en un Pod](#ejecutar-comandos-en-un-pod)
-- [Logs de Pods](#logs-de-pods)
-- [kubectl proxy](#kubectl-proxy)
-- [POD con un Servicio](#pod-con-un-servicio)
-- [Port-Forwarding](#port-forwarding)
-- [Minikube SSH](#minikube-ssh)
+- [Introducción a los Pods](#-introducci%C3%B3n-a-los-pods)
+- [Pods con varios contenedores](#-pods-con-varios-contenedores)
+- [Crear un Pod](#-crear-un-pod)
+- [Propiedades de un Pod](#-propiedades-de-un-pod)
+- [Ejecutar comandos en un Pod](#-ejecutar-comandos-en-un-pod)
+- [Logs de Pods](#-logs-de-pods)
+- [kubectl proxy](#-kubectl-proxy)
+- [POD con un Servicio](#-pod-con-un-servicio)
+- [Port-Forwarding](#-port-forwarding)
+- [Minikube SSH](#-minikube-ssh)
 
 ---
 # 🚀 Introducción a los Pods
