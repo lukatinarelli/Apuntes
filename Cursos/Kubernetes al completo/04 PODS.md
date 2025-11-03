@@ -5,10 +5,10 @@
 - [Propiedades de un Pod](#-propiedades-de-un-pod)
 - [Ejecutar comandos en un Pod](#-ejecutar-comandos-en-un-pod)
 - [Logs de Pods](#-logs-de-pods)
-- [kubectl proxy](#-kubectl-proxy)
+- [Kubectl proxy](#-Kubectl-proxy)
 - [POD con un Servicio](#-pod-con-un-servicio)
 - [Port-Forwarding](#-port-forwarding)
-- [Minikube SSH](#-minikube-ssh)
+- [Minikube SSH](%EF%B8%8F-minikube-ssh)
 
 ---
 # 🚀 Introducción a los Pods
@@ -122,7 +122,7 @@ kubectl logs apache --tail=20
 ```
 
 ---
-# 🌐 kubectl proxy
+# 🌐 Kubectl proxy
 El comando `kubectl proxy` crea un **proxy HTTP** que permite acceder a la API de Kubernetes de forma segura desde tu máquina local.
 #### Ejemplo:
 ```bash
