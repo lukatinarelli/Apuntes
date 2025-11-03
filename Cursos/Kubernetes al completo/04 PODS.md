@@ -58,7 +58,8 @@ Para listar los Pods en ejecución:
 kubectl get pods
 ```
 
-> [!NOTE] Añade la opción `-o wide` para mostrar información adicional (nodo, IP, etc.)
+> [!NOTE]
+> Añade la opción `-o wide` para mostrar información adicional (nodo, IP, etc.)
 
 ---
 # 🔍 Propiedades de un Pod
@@ -67,7 +68,8 @@ Para visualizar las propiedades detalladas de un Pod:
 kubectl describe pod/<nombre-pod>
 ```
 
-> [!WARNING] Recuerda anteponer la palabra clave `pod/` antes del nombre del Pod.
+> [!WARNING]
+> Recuerda anteponer la palabra clave `pod/` antes del nombre del Pod.
 
 ---
 # 🧠 Ejecutar comandos en un Pod
@@ -100,7 +102,8 @@ Podemos crear un Pod basado en Apache para practicar con los logs:
 kubectl run apache --image=httpd --port=8080
 ```
 
-> [!NOTE] Con la opción `--port` indicamos el puerto en el que el contenedor expondrá su servicio.
+> [!NOTE]
+> Con la opción `--port` indicamos el puerto en el que el contenedor expondrá su servicio.
 
 Ver los logs del Pod:
 ```bash
@@ -134,7 +137,8 @@ Esto abre un proxy local en `http://127.0.0.1:8001`, a través del cual puedes a
 http://127.0.0.1:8001/api/v1/namespaces/default/pods
 ```
 
-> [!NOTE] **Uso típico:** conectar herramientas o paneles web locales con la API de Kubernetes sin exponerla públicamente.
+> [!NOTE]
+> **Uso típico:** conectar herramientas o paneles web locales con la API de Kubernetes sin exponerla públicamente.
 
 ---
 # 🌍 POD con un Servicio
@@ -194,7 +198,8 @@ exit
 
 Para salir y volver a tu terminal local.
 
-> [!NOTE] Ideal para tareas de depuración o para entender cómo Kubernetes ejecuta internamente los Pods.
+> [!NOTE]
+> Ideal para tareas de depuración o para entender cómo Kubernetes ejecuta internamente los Pods.
 
 ---
 
