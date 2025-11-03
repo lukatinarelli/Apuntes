@@ -8,7 +8,7 @@
 - [Kubectl proxy](#-Kubectl-proxy)
 - [POD con un Servicio](#-pod-con-un-servicio)
 - [Port-Forwarding](#-port-forwarding)
-- [Minikube SSH](%EF%B8%8F-minikube-ssh)
+- [Minikube SSH](#%EF%B8%8F-minikube-ssh)
 
 ---
 # 🚀 Introducción a los Pods
