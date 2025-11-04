@@ -112,68 +112,46 @@ Con la flag `-f`, los logs se muestran en tiempo real:
 kubectl logs -f apache
 ```
 
-
 Opciones útiles:
-
 - `--tail=N` → muestra solo las **últimas N líneas**
-    
 - `--since=10m` → logs de los **últimos 10 minutos**
-    
 - `-c [nombre-contenedor]` → especifica el contenedor si hay varios
-    
-
 #### Ejemplo:
 ```bash
-kubectl get pods
+kubectl logs apache --tail=20
 ```
-`kubectl logs apache --tail=20`
 
 ---
-
-## 🌐 kubectl proxy
-
+# 🌐 kubectl proxy
 El comando `kubectl proxy` crea un **proxy HTTP** que permite acceder a la API de Kubernetes de forma segura desde tu máquina local.
-
 #### Ejemplo:
 ```bash
-kubectl get pods
+kubectl proxy
 ```
-`kubectl proxy`
 
 Esto abre un proxy local en `http://127.0.0.1:8001`, a través del cual puedes acceder a recursos del clúster:
 ```bash
-kubectl get pods
+http://127.0.0.1:8001/api/v1/namespaces/default/pods
 ```
-`http://127.0.0.1:8001/api/v1/namespaces/default/pods`
 
 > 💡 **Uso típico:** conectar herramientas o paneles web locales con la API de Kubernetes sin exponerla públicamente.
 
 ---
-
-## 🌍 POD con un Servicio
-
+# 🌍 POD con un Servicio
 Para exponer un **Pod** y hacerlo accesible desde fuera del clúster, usamos:
 ```bash
-kubectl get pods
+kubectl expose pod nginx1 --port=80 --name=nginx1-svc --type=LoadBalancer
 ```
-`kubectl expose pod nginx1 --port=80 --name=nginx1-svc --type=LoadBalancer`
-
 ### 🔍 Explicación
-
 - `nginx1` → nombre del Pod a exponer
-    
 - `--port=80` → puerto interno del servicio
-    
 - `--name=nginx1-svc` → nombre del nuevo servicio
-    
 - `--type=LoadBalancer` → expone el servicio hacia fuera del clúster
-    
 
 Listar los servicios activos:
 ```bash
-kubectl get pods
+kubectl get svc
 ```
-`kubectl get svc`
 
 > [!NOTE]  
 > Para conocer la IP externa en Minikube:
@@ -181,11 +159,8 @@ kubectl get pods
 > `minikube ip`
 
 ---
-
-## 🔄 Port-Forwarding
-
+# 🔄 Port-Forwarding
 Permite **mapear un puerto local** de tu máquina a un puerto de un Pod dentro del clúster.
-
 #### Ejemplo:
 ```bash
 kubectl get pods
@@ -194,41 +169,35 @@ kubectl get pods
 
 Acceso desde el navegador:
 ```bash
-kubectl get pods
+http://localhost:9999
 ```
-`http://localhost:9999`
 
 > 💡 **Ventajas:** rápido, seguro y sin exponer el servicio públicamente.  
 > ⚠️ **Limitación:** solo accesible desde tu equipo local.
 
 ---
-
-## 🖥️ Minikube SSH
-
+# 🖥️ Minikube SSH
 Con `minikube ssh` puedes **acceder directamente a la máquina virtual** donde se ejecuta tu clúster Minikube.
 ```bash
-kubectl get pods
+minikube ssh
 ```
-`minikube ssh`
 
 Una vez dentro, tendrás acceso a un entorno Linux minimalista que actúa como **nodo del clúster**.  
 Desde ahí puedes inspeccionar procesos, archivos, o el runtime de contenedores (`containerd` o `docker` según la configuración).
-
 #### Ejemplos útiles:
 ```bash
-kubectl get pods
+docker ps
 ```
-`docker ps`
 
 Lista los contenedores en ejecución dentro del nodo Minikube.
 ```bash
-kubectl get pods
+exit
 ```
-`exit`
 
 Para salir y volver a tu terminal local.
 
-> 💡 Ideal para tareas de depuración o para entender cómo Kubernetes ejecuta internamente los Pods.
+> [!Note]
+> Ideal para tareas de depuración o para entender cómo Kubernetes ejecuta internamente los Pods.
 
 ---
 
