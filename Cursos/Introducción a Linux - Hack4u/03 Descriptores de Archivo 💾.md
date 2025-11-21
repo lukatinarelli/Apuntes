@@ -67,3 +67,6 @@ exec 3>&-
 >     
 > 3. **Comunicación entre procesos:** Utilizar FDs para _pipes_ nombrados o _sockets_ abiertos.
 
+---
+
+🔙 [Volver al índice](00%20Índice.md)
