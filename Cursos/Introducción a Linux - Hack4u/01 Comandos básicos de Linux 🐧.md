@@ -86,3 +86,5 @@ La gestión de usuarios es crítica en seguridad (Pentesting):
 | **Path Hijacking** | **(Mención de Seguridad)** Consiste en engañar a la _shell_ para que ejecute un archivo malicioso en un directorio no seguro antes que el comando legítimo, manipulando la lista `$PATH`. |                                                                   
 
 ---
+
+🔙 [Volver al índice](Cursos/%20Python%20Ofensivo%20-%20Hack4u/00%20Índice.md)
