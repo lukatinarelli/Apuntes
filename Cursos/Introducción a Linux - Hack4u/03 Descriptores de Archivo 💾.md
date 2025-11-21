@@ -57,7 +57,7 @@ exec 3>&-
 # Resultado: 'mi_log.txt' contiene el nombre de usuario y la ruta.
 ```
 
-> [!NOTE] Utilidad
+> [!NOTE]
 > 
 > El manejo de FDs más allá de 0, 1 y 2 es común en scripts de shell complejos (Bash scripting) para tareas como:
 > 
