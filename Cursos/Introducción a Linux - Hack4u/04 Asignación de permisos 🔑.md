@@ -9,6 +9,7 @@ Linux aplica permisos a cada archivo y directorio usando un sistema de **9 bits*
 | **g** (Group)  | **Grupo** al que pertenece el archivo.                                      |
 | **o** (Others) | **Otros** usuarios (cualquiera que no sea el dueño ni pertenezca al grupo). |
 | **a** (All)    | Se refiere a **todos** (u, g, y o).                                         |
+
 Cada uno de estos grupos puede tener tres tipos de permisos:
 
 | **Permiso**   | **Letra** | **Valor Octal** | **Función**                                                                      |
