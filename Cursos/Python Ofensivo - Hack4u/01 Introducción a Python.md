@@ -1,7 +1,7 @@
 # Índice de la sección
-- [Historia y filosofía de Python](#historia-y-filosofía-de-python)
-- [Características y ventajas](#características-y-ventajas)
-- [Diferencias Python2/3, PIP](#diferencias-python2/3,-pip)
+- [Historia y filosofía de Python](#-historia-y-filosofía-de-python)
+- [Características y ventajas](#-características-y-ventajas)
+- [Diferencias Python2/3, PIP](#-diferencias-python2/3,-pip)
 
 ---
 # 🐍 Historia y filosofía de Python
