@@ -57,7 +57,7 @@ La gestión de usuarios es crítica en seguridad (Pentesting):
 | **`rm <archivo>`**          | **Elimina** archivos.                                                         |                                                                                |
 | **`rm -r <directorio>`**    | **Elimina directorios** de forma **recursiva**.                               | 🚨 **¡Peligro!** No pide confirmación. El comando `rm -rf /` es el más temido. |
 | **`rmdir <directorio>`**    | Elimina un directorio **solo si está vacío**.                                 | Más seguro que `rm -r`, pero menos práctico.                                   |
-> [!WARNING] Borrado en Linux
+> [!WARNING]
 > 
 > En Linux, el comando rm elimina el archivo permanentemente (lo desvincula del sistema de archivos). No existe una "Papelera de Reciclaje" por defecto en la shell. ¡Úsalo con cautela!
 
