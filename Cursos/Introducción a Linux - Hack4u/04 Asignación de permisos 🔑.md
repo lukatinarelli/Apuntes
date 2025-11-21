@@ -107,3 +107,5 @@ lsattr /etc/passwd
 > **Recurso Útil:** Consulta [gtfobins.github.io/#+capabilities](https://gtfobins.github.io/#+capabilities) para ver _binarios_ comunes con capacidades peligrosas.
 
 ---
+
+🔙 [Volver al índice](00%20Índice.md)
