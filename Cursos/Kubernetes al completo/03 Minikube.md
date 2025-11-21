@@ -147,4 +147,4 @@ minikube start --container-runtime=cri-o -p cluster2
 
 ---
 
-🔙 [Volver al índice](00%20Índice.md)
+🔙 [Volver al índice](Cursos/Kubernetes%20al%20completo/00%20Índice.md)
