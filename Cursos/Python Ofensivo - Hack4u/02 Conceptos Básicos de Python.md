@@ -1,13 +1,13 @@
 # Índice de la sección
-- [🖥️ Intérprete de Python](#-intérprete-de-python)
+- [🖥️ Intérprete de Python](#%EF%B8%8F-intérprete-de-python)
 - [🔖 Shebang y convenios](#-shebang-y-convenios)
 - [📝 Variables y tipos de datos](#-variables-y-tipos-de-datos)
 - [⚡ Operadores Básicos en Python](#-operadores-básicos-en-python)
-- [📝 Formateo de Cadenas (String Formatting)](#-formateo-de-cadenas-(string-formatting)
-- [🧭 Control de Flujo](#-control-fde-flujo)
+- [📝 Formateo de Cadenas (String Formatting)](#-formateo-de-cadenas-string-formatting)
+- [🧭 Control de Flujo](#-control-de-flujo)
 - [📌 Funciones y Ámbito](#-funciones-y-ámbito)
 - [📌 Funciones Lambda](#-funciones-lambda)
-- [⚠️ Excepciones y Manejo de Errores](#-excepciones-y-manejo-de-errores)
+- [⚠️ Excepciones y Manejo de Errores](#%EF%B8%8F-excepciones-y-manejo-de-errores)
 
 ---
 
@@ -334,4 +334,4 @@ if b == 0:
 
 ---
 
-🔙 [Volver al índice](20%C3%8Dndice.md)
+🔙 [Volver al índice](00%20Índice.md)
