@@ -72,7 +72,6 @@ La gestión de usuarios es crítica en seguridad (Pentesting):
 
 ---
 # ⚙️ Entorno de la Shell y Ejecutables
-
 ### Shell y `/etc/shells`
 - **Shell**: Es el **intérprete de comandos**. Actúa como la interfaz entre el usuario y el núcleo (kernel) de Linux.
 - **Zsh (Z Shell)**: Es una _shell_ moderna que usas, popular por su autocompletado avanzado y personalización.
