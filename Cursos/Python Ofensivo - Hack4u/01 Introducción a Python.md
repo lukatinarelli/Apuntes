@@ -56,4 +56,8 @@ Es un lenguaje **interpretado**, lo que significa que el código no se transform
 
 ---
 
+<<<<<<< HEAD
 🔙 [Volver al índice](00%20Índice.md)
+=======
+🔙 [Volver al índice](00%20Índice.md)
+>>>>>>> 224369d (Nose)
