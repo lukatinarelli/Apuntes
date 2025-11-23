@@ -1,4 +1,5 @@
 # Índice de la sección
+
 - [🖥️ Intérprete de Python](#%EF%B8%8F-intérprete-de-python)
 - [🔖 Shebang y convenios](#-shebang-y-convenios)
 - [📝 Variables y tipos de datos](#-variables-y-tipos-de-datos)
