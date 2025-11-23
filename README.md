@@ -1,19 +1,17 @@
-# 🧠 Apuntes y Recursos de Cursos de Ciberseguridad y DevOps
+# 🧠 Apuntes Personales de Ciberseguridad, DevOps y Tecnología
 
-Este repositorio recopila **mis apuntes personales** realizados durante diferentes cursos de tecnología, ciberseguridad, administración de sistemas y automatización.  
-El objetivo es tener un repositorio central con **material de estudio, ejemplos prácticos y documentación técnica** elaborada por mí.
+Bienvenido a mi repositorio de **apuntes, resúmenes, ejemplos prácticos y documentación técnica** creada durante mi proceso de estudio continuo en ciberseguridad, sistemas y automatización.  
+Todo el contenido está escrito por mí, con explicaciones claras, esquemas y notas prácticas listas para aplicar.
 
 ---
 
-## 📚 Contenido Actual
+## 📂 Estructura del Repositorio
 
-### 📁 `Recursos/`
-Contiene materiales complementarios, documentos de referencia y archivos auxiliares que uso en los cursos o prácticas.  
-> ⚠️ Ningún libro o documento con derechos de autor será compartido públicamente.
+Aquí encontrarás mis apuntes completos organizados por curso, cada uno con su propio índice y materiales asociados.
+### **`Cursos/`**
 
-### 📁 `Cursos/`
-Dentro de esta carpeta encontrarás mis apuntes personales estructurados por curso:
 
+<<<<<<< Updated upstream
 [//]: # (HACKING_VAULT_INDEX_START)
 
 * **📂 Ansible desde Cero**
@@ -58,49 +56,71 @@ Dentro de esta carpeta encontrarás mis apuntes personales estructurados por cur
   * 📄 [03 Colecciones y Estructuras de Datos](Cursos/Python%20Ofensivo%20-%20Hack4u/03%20Colecciones%20y%20Estructuras%20de%20Datos.md)
 
 [//]: # (HACKING_VAULT_INDEX_END)
+=======
+
+_(La lista crecerá a medida que avance en nuevos cursos o formaciones.)_
+
+### **`Recursos/`**
+
+Material adicional creado por mí para complementar los cursos:
+
+- Diagramas técnicos    
+- Scripts de ejemplo
+- Apuntes auxiliares
+- Manuales y guías rápidas
+
+> ⚠️ **No se incluyen libros, PDFs ni materiales protegidos por derechos de autor.**
+>>>>>>> Stashed changes
 
 ---
 
-## 🧾 Descripción
+## 📘 Contenido de los Apuntes
 
-Cada curso contiene:
-- Documentación en **Markdown** (.md) lista para visualizar en GitHub o en Obsidian.
-- Ejemplos prácticos y **playbooks, scripts o configuraciones reales**.
-- Referencias y enlaces útiles.
-- Diagramas o esquemas creados por mí para facilitar la comprensión.
+Cada curso suele incluir:
+
+- Apuntes en **Markdown** para lectura clara en GitHub u Obsidian    
+- Comandos listos para copiar/pegar
+- Casos prácticos aplicables en entornos reales
+- Esquemas, tablas y resúmenes
+- Enlaces y referencias útiles
+- Ejercicios y notas personales
+
+Mi objetivo es convertir cada curso en **documentación práctica y reutilizable**, no simples resúmenes.
 
 ---
 
-## 📜 Licencia
-Este repositorio está bajo licencia **[Creative Commons BY-NC-SA 4.0](LICENSE)**.  
-Esto significa que puedes compartir y adaptar el contenido, **siempre que:**
-- Me cites como autor,  
-- No los uses con fines comerciales,  
-- Y mantengas la misma licencia en tus derivados.
+## 🔒 Licencia
 
-© 2025 lukatinarelli — Uso educativo y no comercial.
+Este repositorio está protegido bajo **Creative Commons BY-NC-SA 4.0**.  
+Puedes compartir y adaptar el contenido **siempre que:**
 
+- Me cites como autor
+- No haya uso comercial    
+- Mantengas la misma licencia
+
+© 2025 — Uso educativo y personal.
 
 ---
 
 ## ⚠️ Aviso Legal
 
-> Estos apuntes son **material original elaborado por mí**, basados en mi experiencia y en cursos que he realizado.  
-> No incluyen ni reproducen contenido con derechos de autor de plataformas como **Udemy** o **Hack4u**, ni tienen relación oficial con ellas.
+Estos apuntes son **material original creado por mí**.  
+No pertenecen ni reproducen contenido de Udemy, Hack4u o cualquier otra plataforma.  
+No tienen relación oficial con ningún instructor o empresa.
 
 ---
 
 ## 🤝 Contribuciones
 
-Si quieres aportar ideas, correcciones o ampliar los apuntes, ¡eres bienvenido!  
-Puedes hacer un **fork** o abrir un **pull request**.
+Sugerencias, mejoras o correcciones son bienvenidas.  
+Puedes abrir un **issue** o enviar un **pull request**.
 
 ---
 
 ## 📬 Contacto
 
-Si tienes preguntas o quieres contactar conmigo, puedes hacerlo a través de GitHub o cualquier canal profesional que haya indicado en mi perfil.
+Puedes encontrar mis enlaces de contacto profesional directamente desde mi perfil de GitHub.
 
 ---
 
-⭐ *Si te resultan útiles estos apuntes, considera dejar una estrella en el repositorio para apoyar el proyecto.*
+⭐ _Si este repositorio te resulta útil, una estrella siempre es bienvenida._
