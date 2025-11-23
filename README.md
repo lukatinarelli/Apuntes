@@ -10,8 +10,6 @@ Todo el contenido está escrito por mí, con explicaciones claras, esquemas y no
 Aquí encontrarás mis apuntes completos organizados por curso, cada uno con su propio índice y materiales asociados.
 ### **`Cursos/`**
 
-
-<<<<<<< Updated upstream
 [//]: # (HACKING_VAULT_INDEX_START)
 
 * **📂 Ansible desde Cero**
@@ -56,7 +54,6 @@ Aquí encontrarás mis apuntes completos organizados por curso, cada uno con su 
   * 📄 [03 Colecciones y Estructuras de Datos](Cursos/Python%20Ofensivo%20-%20Hack4u/03%20Colecciones%20y%20Estructuras%20de%20Datos.md)
 
 [//]: # (HACKING_VAULT_INDEX_END)
-=======
 
 _(La lista crecerá a medida que avance en nuevos cursos o formaciones.)_
 
@@ -70,7 +67,6 @@ Material adicional creado por mí para complementar los cursos:
 - Manuales y guías rápidas
 
 > ⚠️ **No se incluyen libros, PDFs ni materiales protegidos por derechos de autor.**
->>>>>>> Stashed changes
 
 ---
 
