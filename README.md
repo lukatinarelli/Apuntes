@@ -58,7 +58,7 @@ Aquí encontrarás mis apuntes completos organizados por curso, cada uno con su 
 	- 📄 [4.5 - Encapsulamiento y métodos especiales](Cursos/Python%20Ofensivo%20-%20Hack4u/04%20Programación%20Orientada%20a%20Objetos%20(POO)/05%20Encapsulamiento%20y%20métodos%20especiales.md)
 	- 📄 [4.6 - Decoradores y properties](Cursos/Python%20Ofensivo%20-%20Hack4u/04%20Programación%20Orientada%20a%20Objetos%20(POO)/06%20Decoradores%20y%20properties.md)
 - **📂 05 - Módulos y Paquetes**
-	- 📄 [5.1 - Organización en Módulos](Cursos/Python%20Ofensivo%20-%20Hack4u/05%20Módulos%20y%20Paquetes/01%20Organización%20en%20Módulos.md)
+	- 📄 [5.1 - Organización en Módulos](Cursos/Python%20Ofensivo%20-%20Hack4u/05%20Módulos%20y%20Paquetes/01%20Organización%20en%20módulos.md)
 
 _(La lista crecerá a medida que avance en nuevos cursos o formaciones.)_
 
