@@ -51,8 +51,8 @@ Aquí encontrarás mis apuntes completos organizados por curso, cada uno con su 
   * 📄 [02 Conceptos Básicos de Python](Cursos/Python%20Ofensivo%20-%20Hack4u/02%20Conceptos%20B%C3%A1sicos%20de%20Python.md)
   * 📄 [03 Colecciones y Estructuras de Datos](Cursos/Python%20Ofensivo%20-%20Hack4u/03%20Colecciones%20y%20Estructuras%20de%20Datos.md)
   * 📂 04 - Programación Orientada a Objetos (POO)
-	- 📄 [4.1 - Clases y Objetos](01%20Clases%20y%20Objetos.md)
-	- 📄 [4.2 - Métodos estáticos y Métodos de clase](02%20Métodos%20estáticos%20y%20Métodos%20de%20clase)
+	- 📄 [4.1 - Clases y Objetos](Cursos/Python%20Ofensivo%20-%20Hack4u/04%20Programación%20Orientada%20a%20Objetos%20(POO)/01%20Clases%20y%20Objetos.md)
+	- 📄 [4.2 - Métodos estáticos y Métodos de clase](Cursos/Python%20Ofensivo%20-%20Hack4u/04%20Programación%20Orientada%20a%20Objetos%20(POO)/02%20Métodos%20estáticos%20y%20Métodos%20de%20clase.md)
 
 _(La lista crecerá a medida que avance en nuevos cursos o formaciones.)_
 
