@@ -2,8 +2,6 @@
 
 En la **Programación Orientada a Objetos** en Python, los **métodos de clase** y los **métodos estáticos** son herramientas que permiten organizar la funcionalidad dentro de las clases de forma más flexible y modular.
 
----
-
 ## 🏷️ 1. Métodos de Clase (`@classmethod`)
 
 - Se definen con el decorador `@classmethod`.
@@ -39,8 +37,6 @@ print(Persona.especie)  # Híbrido
 > [!Note]
 > Los métodos de clase interactúan con la clase misma, permitiendo modificar su estado global o crear objetos de maneras alternativas.
 
----
-
 ## 🔧 2. Métodos Estáticos (`@staticmethod`)
 
 - Se definen con el decorador `@staticmethod`.
@@ -67,8 +63,6 @@ print(Calculadora.multiplicar(4, 5)) # 20
 
 > Mantienen la cohesión del código y permiten agrupar funciones que conceptualmente pertenecen a la clase.
 
----
-
 ## 🧠 3. Diferencias clave
 
 |Concepto|Recibe|Se llama sobre|Uso principal|
@@ -79,7 +73,7 @@ print(Calculadora.multiplicar(4, 5)) # 20
 
 ---
 
-## 📌 Resumen
+# 📌 Resumen
 
 - **Método de clase** → interactúa con la **clase**.
 - **Método estático** → funciona como una función normal, pero organizada dentro de la clase.
