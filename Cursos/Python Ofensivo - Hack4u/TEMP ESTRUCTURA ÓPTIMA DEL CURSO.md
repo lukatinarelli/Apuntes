@@ -98,26 +98,6 @@ Aquí te recomiendo **una nota por vídeo**, es grande:
 
 ### 5.4 Cuestionario
 
----
-
-# 📁 6. Proyectos de POO
-
-Te recomiendo meter **cada proyecto en una subcarpeta**, ej:
-
-### 6.1 Biblioteca
-
-- 6.1.1 (parte 1)
-    
-- 6.1.2 (parte 2)
-    
-
-### 6.2 Animales tienda
-
-### 6.3 Flota vehículos
-
-### 6.4 Gestión de notas (1)
-
-### 6.5 Gestión de notas (2)
 
 ---
 
