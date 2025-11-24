@@ -57,8 +57,8 @@ class Calculadora:
         return a * b
 
 # Usando métodos estáticos
-print(Calculadora.sumar(2, 3))      # 5
-print(Calculadora.multiplicar(4, 5)) # 20
+print(Calculadora.sumar(2, 3))  # 5
+print(Calculadora.multiplicar(4, 5))  # 20
 ```
 
 > Mantienen la cohesión del código y permiten agrupar funciones que conceptualmente pertenecen a la clase.
@@ -78,3 +78,7 @@ print(Calculadora.multiplicar(4, 5)) # 20
 - **Método de clase** → interactúa con la **clase**.
 - **Método estático** → funciona como una función normal, pero organizada dentro de la clase.
 - Ambos contribuyen a un código **más limpio, modular y mantenible**.
+
+---
+
+🔙 [Volver al índice](../00%20Índice.md)
