@@ -1,6 +1,3 @@
----
-
----
 # 🔑 Comprendiendo el uso de `self` en Python (POO)
 
 En Python, **`self`** es un concepto central en la **Programación Orientada a Objetos (POO)**. Aunque puede parecer confuso al principio, entender su funcionamiento es crucial para trabajar con clases y objetos de manera efectiva.
