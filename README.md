@@ -10,8 +10,6 @@ Todo el contenido está escrito por mí, con explicaciones claras, esquemas y no
 Aquí encontrarás mis apuntes completos organizados por curso, cada uno con su propio índice y materiales asociados.
 ### **`Cursos/`**
 
-[//]: # (HACKING_VAULT_INDEX_START)
-
 * **📂 Ansible desde Cero**
   * 📄 [00 Índice](Cursos/Ansible%20desde%20Cero/00%20%C3%8Dndice.md)
   * 📄 [01 Comandos Ad-hoc en Ansible](Cursos/Ansible%20desde%20Cero/01%20Comandos%20Ad-hoc%20en%20Ansible.md)
@@ -52,8 +50,6 @@ Aquí encontrarás mis apuntes completos organizados por curso, cada uno con su 
   * 📄 [01 Introducción a Python](Cursos/Python%20Ofensivo%20-%20Hack4u/01%20Introducci%C3%B3n%20a%20Python.md)
   * 📄 [02 Conceptos Básicos de Python](Cursos/Python%20Ofensivo%20-%20Hack4u/02%20Conceptos%20B%C3%A1sicos%20de%20Python.md)
   * 📄 [03 Colecciones y Estructuras de Datos](Cursos/Python%20Ofensivo%20-%20Hack4u/03%20Colecciones%20y%20Estructuras%20de%20Datos.md)
-
-[//]: # (HACKING_VAULT_INDEX_END)
 
 _(La lista crecerá a medida que avance en nuevos cursos o formaciones.)_
 
