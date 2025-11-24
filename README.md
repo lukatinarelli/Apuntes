@@ -55,8 +55,8 @@ Aquí encontrarás mis apuntes completos organizados por curso, cada uno con su 
 	- 📄 [4.2 - Métodos estáticos y Métodos de clase](Cursos/Python%20Ofensivo%20-%20Hack4u/04%20Programación%20Orientada%20a%20Objetos%20(POO)/02%20Métodos%20estáticos%20y%20Métodos%20de%20clase.md)
 	- 📄 [4.2 - Métodos estáticos y Métodos de clase](Cursos/Python%20Ofensivo%20-%20Hack4u/04%20Programación%20Orientada%20a%20Objetos%20(POO)/03%20Comprendiendo%20self.md)
 	- 📄 [4.4 - Herencia y polimorfismo](Cursos/Python%20Ofensivo%20-%20Hack4u/04%20Programación%20Orientada%20a%20Objetos%20(POO)/04%20Herencia%20y%20polimorfismo.md)
-	- 📄 [4.5 - Encapsulamiento y métodos especiales](Cursos/Python%20Ofensivo%20-%20Hack4u/05%20Programación%20Orientada%20a%20Objetos%20(POO)/03%20Encapsulamiento%20y%20métodos%20especiales.md)
-	- 📄 [4.6 - Decoradores y properties](Cursos/Python%20Ofensivo%20-%20Hack4u/06%20Programación%20Orientada%20a%20Objetos%20(POO)/04%20Decoradores%20y%20properties.md)
+	- 📄 [4.5 - Encapsulamiento y métodos especiales](Cursos/Python%20Ofensivo%20-%20Hack4u/04%20Programación%20Orientada%20a%20Objetos%20(POO)/05%20Encapsulamiento%20y%20métodos%20especiales.md)
+	- 📄 [4.6 - Decoradores y properties](Cursos/Python%20Ofensivo%20-%20Hack4u/04%20Programación%20Orientada%20a%20Objetos%20(POO)/06%20Decoradores%20y%20properties.md)
 
 _(La lista crecerá a medida que avance en nuevos cursos o formaciones.)_
 

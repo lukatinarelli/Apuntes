@@ -7,5 +7,5 @@
 	- 📄 [4.2 - Métodos estáticos y Métodos de clase](04%20Programación%20Orientada%20a%20Objetos%20(POO)/02%20Métodos%20estáticos%20y%20Métodos%20de%20clase.md)
 	- 📄 [4.3 - Comprendiendo self](04%20Programación%20Orientada%20a%20Objetos%20(POO)/03%20Comprendiendo%20self.md)
 	- 📄 [4.4 - Herencia y polimorfismo](04%20Programación%20Orientada%20a%20Objetos%20(POO)/04%20Herencia%20y%20polimorfismo.md)
-	- 📄 [4.5 - Encapsulamiento y métodos especiales](05%20Programación%20Orientada%20a%20Objetos%20(POO)/03%20Encapsulamiento%20y%20métodos%20especiales.md)
-	- 📄 [4.6 - Decoradores y properties](06%20Programación%20Orientada%20a%20Objetos%20(POO)/04%20Decoradores%20y%20properties.md)
+	- 📄 [4.5 - Encapsulamiento y métodos especiales](04%20Programación%20Orientada%20a%20Objetos%20(POO)/05%20Encapsulamiento%20y%20métodos%20especiales.md)
+	- 📄 [4.6 - Decoradores y properties](04%20Programación%20Orientada%20a%20Objetos%20(POO)/06%20Decoradores%20y%20properties.md)
