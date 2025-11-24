@@ -143,4 +143,4 @@ Es uno de los pilares para programar herramientas ofensivas, automatizaciones y 
 
 ---
 
-🔙 [Volver al índice](00%20Índice.md)
+🔙 [Volver al índice](../00%20Índice.md)
