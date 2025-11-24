@@ -9,3 +9,5 @@
 	- 📄 [4.4 - Herencia y polimorfismo](04%20Programación%20Orientada%20a%20Objetos%20(POO)/04%20Herencia%20y%20polimorfismo.md)
 	- 📄 [4.5 - Encapsulamiento y métodos especiales](04%20Programación%20Orientada%20a%20Objetos%20(POO)/05%20Encapsulamiento%20y%20métodos%20especiales.md)
 	- 📄 [4.6 - Decoradores y properties](04%20Programación%20Orientada%20a%20Objetos%20(POO)/06%20Decoradores%20y%20properties.md)
+- **📂 05 - Módulos y Paquetes**
+	- 📄 [5.1 - Organización en Módulos](05%20Módulos%20y%20Paquetes/01%20Organización%20en%20Módulos.md)
