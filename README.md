@@ -26,7 +26,7 @@ Aquí encontrarás mis apuntes completos organizados por curso, cada uno con su 
   * 📄 [12 Jinja2](Cursos/Ansible%20desde%20Cero/12%20Jinja2.md)
   * 📄 [13 Ansible Galaxy](Cursos/Ansible%20desde%20Cero/13%20Ansible%20Galaxy.md)
 
-* **📂 DevOps Introduction - O'Reilly
+* **📂 DevOps Introduction - O'Reilly**
   * 📄 [00 Índice](Cursos/DevOps%20Introduction%20-%20O'Reilly/00%20%C3%8Dndice.md)
   * **📂 01 - Introducción**
 	- 📄 [1.1 - DevOps: Introducción](Cursos/DevOps%20Introduction%20-%20O'Reilly/01%20Introducción/01%20DevOps%20Introducción.md)
