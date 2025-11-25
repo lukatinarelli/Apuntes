@@ -10,7 +10,7 @@ Todo el contenido está escrito por mí, con explicaciones claras, esquemas y no
 Aquí encontrarás mis apuntes completos organizados por curso, cada uno con su propio índice y materiales asociados.
 ### **`Cursos/`**
 
-* **📂 Ansible desde Cero**
+* **📂 Ansible desde Cero** :construction: En processo :construction:
   * 📄 [00 Índice](Cursos/Ansible%20desde%20Cero/00%20%C3%8Dndice.md)
   * 📄 [01 Comandos Ad-hoc en Ansible](Cursos/Ansible%20desde%20Cero/01%20Comandos%20Ad-hoc%20en%20Ansible.md)
   * 📄 [02 Escalada de privilegios en Ansible](Cursos/Ansible%20desde%20Cero/02%20Escalada%20de%20privilegios%20en%20Ansible.md)
@@ -26,7 +26,7 @@ Aquí encontrarás mis apuntes completos organizados por curso, cada uno con su 
   * 📄 [12 Jinja2](Cursos/Ansible%20desde%20Cero/12%20Jinja2.md)
   * 📄 [13 Ansible Galaxy](Cursos/Ansible%20desde%20Cero/13%20Ansible%20Galaxy.md)
 
-* **📂 DevOps Introduction - O'Reilly**
+* **📂 DevOps Introduction - O'Reilly** :construction: En processo :construction:
   * 📄 [00 Índice](Cursos/DevOps%20Introduction%20-%20O'Reilly/00%20%C3%8Dndice.md)
   * 📄 [1.1 - Introducción a DevOps](Cursos/DevOps%20Introduction%20-%20O'Reilly/01%20Introducción%20a%20DevOps.md)
   * **📂 02 Git and GitHub**
@@ -39,11 +39,11 @@ Aquí encontrarás mis apuntes completos organizados por curso, cada uno con su 
   * 📄 [03 Descriptores de Archivo 💾](Cursos/Introducci%C3%B3n%20a%20Linux%20-%20Hack4u/03%20Descriptores%20de%20Archivo%20%F0%9F%92%BE.md)
   * 📄 [04 Asignación de permisos 🔑](Cursos/Introducci%C3%B3n%20a%20Linux%20-%20Hack4u/04%20Asignaci%C3%B3n%20de%20permisos%20%F0%9F%94%91.md)
 
-* **📂 iPhone Apps for Complete Beginners**
+* **📂 iPhone Apps for Complete Beginners** :construction: En processo :construction:
   * 📄 [00 Índice](Cursos/iPhone%20Apps%20for%20Complete%20Beginners%20-%20Swift,%20SwiftUI%20&%20iOS17/00%20%C3%8Dndice.md)
   * 📄 [01 Xcode](Cursos/iPhone%20Apps%20for%20Complete%20Beginners%20-%20Swift,%20SwiftUI%20&%20iOS17/01%20Xcode.md)
 
-* **📂 Kubernetes al completo**
+* **📂 Kubernetes al completo** :construction: En processo :construction:
   * 📄 [00 Índice](Cursos/Kubernetes%20al%20completo/00%20%C3%8Dndice.md)
   * 📄 [01 Introducción a Kubernetes](Cursos/Kubernetes%20al%20completo/01%20Introducci%C3%B3n%20a%20Kubernetes.md)
   * 📄 [02 Kubectl](Cursos/Kubernetes%20al%20completo/02%20Kubectl.md)
@@ -51,7 +51,7 @@ Aquí encontrarás mis apuntes completos organizados por curso, cada uno con su 
   * 📄 [04 PODS](Cursos/Kubernetes%20al%20completo/04%20PODS.md)
   * 📄 [05 YAML](Cursos/Kubernetes%20al%20completo/05%20YAML.md)
 
-* **📂 Python Ofensivo - Hack4u**
+* **📂 Python Ofensivo - Hack4u** :construction: En processo :construction:
   * 📄 [00 Índice](Cursos/Python%20Ofensivo%20-%20Hack4u/00%20%C3%8Dndice.md)
   * 📄 [01 Introducción a Python](Cursos/Python%20Ofensivo%20-%20Hack4u/01%20Introducci%C3%B3n%20a%20Python.md)
   * 📄 [02 Conceptos Básicos de Python](Cursos/Python%20Ofensivo%20-%20Hack4u/02%20Conceptos%20B%C3%A1sicos%20de%20Python.md)
