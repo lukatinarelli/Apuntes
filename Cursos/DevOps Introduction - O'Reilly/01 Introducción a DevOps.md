@@ -1,5 +1,5 @@
 # 📘 ¿Qué es DevOps?
-<img src="../imágenes/Devops.png" width="400" align="right">
+<img src="imágenes/Devops.png" width="400" align="right">
 
 _DevOps_ es un conjunto de prácticas que integran el **desarrollo de software (Dev)** con las **operaciones de TI (Ops)**. Su objetivo es **acelerar el ciclo de vida del desarrollo de software** y permitir una **entrega continua de alta calidad**. Muchas de sus prácticas provienen de la **metodología Agile**, enfocándose en la colaboración, la transparencia y la mejora continua.
 
@@ -139,7 +139,7 @@ Herramientas:
 
 ---
 
-🔙 [Volver al índice](../00%20Índice.md)
+🔙 [Volver al índice](00%20Índice.md)
 
 [^1]: Mantener alta disponibilidad es uno de los principios clave de DevOps, ya que cualquier caída en producción afecta directamente a los usuarios.
 

@@ -29,7 +29,7 @@ Aquí encontrarás mis apuntes completos organizados por curso, cada uno con su 
 * **📂 DevOps Introduction - O'Reilly**
   * 📄 [00 Índice](Cursos/DevOps%20Introduction%20-%20O'Reilly/00%20%C3%8Dndice.md)
   * **📂 01 - Introducción**
-	- 📄 [1.1 - Introducción a DevOps](Cursos/DevOps%20Introduction%20-%20O'Reilly/01%20Introducción/01%20Introducción%20a%20DevOps.md)
+	- 📄 [1.1 - Introducción a DevOps](Cursos/DevOps%20Introduction%20-%20O'Reilly/01%20Introducción%20a%20DevOps.md)
 
 * **📂 Introducción a Linux - Hack4u**
   * 📄 [00 Índice](Cursos/Introducci%C3%B3n%20a%20Linux%20-%20Hack4u/00%20%C3%8Dndice.md)
