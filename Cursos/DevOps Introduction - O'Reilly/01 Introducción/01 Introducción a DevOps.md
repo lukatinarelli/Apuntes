@@ -139,7 +139,7 @@ Herramientas:
 
 ---
 
-🔙 [Volver al índice](00%20Índice.md)
+🔙 [Volver al índice](../00%20Índice.md)
 
 [^1]: Mantener alta disponibilidad es uno de los principios clave de DevOps, ya que cualquier caída en producción afecta directamente a los usuarios.
 
