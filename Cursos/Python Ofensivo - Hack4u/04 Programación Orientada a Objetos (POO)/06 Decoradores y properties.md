@@ -1,4 +1,4 @@
-# 🧩 Decoradore🔙 ￼￼Volver al índice￼￼￼￼￼￼￼￼s y Properties en Python
+# 🧩 Decoradores y Properties en Python
 
 Los **decoradores** y **properties** son herramientas avanzadas en Python que permiten modificar y controlar el comportamiento de funciones y atributos de clase de forma elegante y segura.
 
