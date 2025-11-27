@@ -29,7 +29,7 @@ Aquí encontrarás mis apuntes completos organizados por curso, cada uno con su 
 * **📂 DevOps Introduction - O'Reilly** :construction: En proceso :construction:
   * 📄 [00 Índice](Cursos/DevOps%20Introduction%20-%20O'Reilly/00%20%C3%8Dndice.md)
   * 📄 [01 Introducción a DevOps](Cursos/DevOps%20Introduction%20-%20O'Reilly/01%20Introducción%20a%20DevOps.md)
-  * **📂 02 Git y GitHub
+  * **📂 02 Git y GitHub**
 	- 📄 [2.1 Introducción a Git](Cursos/DevOps%20Introduction%20-%20O'Reilly/02%20Git%20and%20GitHub/2.1%20Introducción%20a%20Git.md)
 	- **📂 2.2 Trabajando con Git (Local)**
 		- 📄 [2.2.1 Crear un repositorio local](Cursos/DevOps%20Introduction%20-%20O'Reilly/02%20Git%20and%20GitHub/2.2%20Trabajando%20con%20Git%20(Local)/2.2.1%20Crear%20un%20repositorio%20local.md)
