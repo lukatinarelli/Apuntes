@@ -7,7 +7,6 @@
 		- 📄 [2.2.2 Etapas](02%20Git%20and%20GitHub/2.2%20Trabajando%20con%20Git%20(Local)/2.2.2%20Etapas.md)
 		- 📄 [2.2.3 Comparar cambios en el repositorio local](02%20Git%20and%20GitHub/2.2%20Trabajando%20con%20Git%20(Local)/2.2.3%20Comparar%20cambios%20en%20el%20repositorio%20local.md)
 
-
 	- **📂 2.3 Trabajando con GitHub (Remoto)**
 		- 📄 [Crear una cuenta y repositorio en GitHub]
 		- 📄 [Clonar, subir y actualizar cambios]
