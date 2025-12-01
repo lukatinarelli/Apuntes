@@ -10,20 +10,22 @@
 		- 📄 [Crear una cuenta y repositorio en GitHub](02%20Git%20and%20GitHub/2.3%20Trabajando%20con%20GitHub%20(Remoto)/2.3.1%20Crear%20una%20cuenta%20y%20repositorio%20en%20GitHub.md)
 		- 📄 [Clonar, subir y actualizar cambios](02%20Git%20and%20GitHub/2.3%20Trabajando%20con%20GitHub%20(Remoto)/2.3.2%20Clonar,%20subir%20y%20actualizar%20cambios.md)
 		- 📄 [Autenticación SSH](02%20Git%20and%20GitHub/2.3%20Trabajando%20con%20GitHub%20(Remoto)/2.3.3%20Autenticación%20SSH.md)
+	- **📂 2.4 Colaboración con otros desarrolladores**
+		- 📄 [Fork y Pull Requests](02%20Git%20and%20GitHub/2.4%20Colaboración%20con%20otros%20desarrolladores/2.4.1%20Fork%20y%20Pull%20Requests.md)
+		- 📄 [Trabajar con repositorios privados](02%20Git%20and%20GitHub/2.4%20Colaboración%20con%20otros%20desarrolladores/2.4.2%20Trabajar%20con%20repositorios%20privados.md)
+		- 📄 [Branches protegidas y contribuyentes](02%20Git%20and%20GitHub/2.4%20Colaboración%20con%20otros%20desarrolladores/2.4.3%20Branches%20protegidas%20y%20contribuyentes.md)
 
-	- **📂 05 Colaboración con otros desarrolladores**
-		- 📄 [Fork y Pull Requests]
-		- 📄 [Trabajar con repositorios privados]
-		- 📄 [Branches protegidas y contribuyentes]
 	- **📂 06 Commits y Branches**
 		- 📄 [Cómo funciona un commit]
 		- 📄 [Revisar commits específicos]
 		- 📄 [Estrategias de ramas en DevOps]
 		- 📄 [Resolver conflictos de merge]
+
 	- **📂 07 Revertir cambios
 		- 📄 [Revertir cambios en Working Directory]
 		- 📄 [Revertir cambios en Staging y repositorio local]
 		- 📄 [Archivo `.gitignore`]
+
 	- **📂 08 Flujo de trabajo en un proyecto
 		- 📄 [Configuración de repositorios para un nuevo proyecto]
 		- 📄 [Habilitar workflow de DevOps en la rama Dev]
