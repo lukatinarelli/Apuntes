@@ -24,7 +24,7 @@
 		- 📄 [Revertir cambios en Staging y repositorio local](02%20Git%20and%20GitHub/2.6%20Revertir%20cambios/2.6.2%20Revertir%20cambios%20en%20Staging%20y%20repositorio%20local.md)
 		- 📄 [Archivo `.gitignore`](02%20Git%20and%20GitHub/2.6%20Revertir%20cambios/2.6.3%20Archivo%20.gitignore.md)
 	- **📂 2.7 Flujo de trabajo en un proyecto**
-		- 📄 [Configuración de repositorios para un nuevo proyecto]
-		- 📄 [Habilitar workflow de DevOps en la rama Dev]
-		- 📄 [Merging de Dev a UAT]
-		- 📄 [Liberación de código en producción]
+		- 📄 [Configuración de repositorios para un nuevo proyecto](02%20Git%20and%20GitHub/2.7%20Flujo%20de%20trabajo%20en%20un%20proyecto/2.7.1%20Configuración%20de%20repositorios%20para%20un%20nuevo%20proyecto.md)
+		- 📄 [Habilitar workflow de DevOps en la rama Dev](02%20Git%20and%20GitHub/2.7%20Flujo%20de%20trabajo%20en%20un%20proyecto/2.7.2%20Habilitar%20workflow%20de%20DevOps%20en%20la%20rama%20Dev.md)
+		- 📄 [Merging de Dev a UAT](02%20Git%20and%20GitHub/2.7%20Flujo%20de%20trabajo%20en%20un%20proyecto/2.7.3%20Merging%20de%20Dev%20a%20UAT.md)
+		- 📄 [Liberación de código en producción](02%20Git%20and%20GitHub/2.7%20Flujo%20de%20trabajo%20en%20un%20proyecto/2.7.4%20Liberación%20de%20código%20en%20producción.md)
