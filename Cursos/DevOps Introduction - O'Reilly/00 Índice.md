@@ -1,6 +1,6 @@
 # Índice DevOps Introduction
   * 📄 [01 Introducción a DevOps](01%20Introducción%20a%20DevOps.md)
-  * **📂 02 Git y GitHub
+  * **📂 02 Git y GitHub**
 	- 📄 [2.1 Introducción a Git](02%20Git%20and%20GitHub/2.1%20Introducción%20a%20Git.md)
 	- **📂 2.2 Trabajando con Git (Local)**
 		- 📄 [2.2.1 Crear un repositorio local](02%20Git%20and%20GitHub/2.2%20Trabajando%20con%20Git%20(Local)/2.2.1%20Crear%20un%20repositorio%20local.md)
