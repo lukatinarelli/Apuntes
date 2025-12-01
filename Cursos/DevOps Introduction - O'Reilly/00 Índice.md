@@ -23,8 +23,7 @@
 		- 📄 [Revertir cambios en Working Directory](02%20Git%20and%20GitHub/2.6%20Revertir%20cambios/2.6.1%20Revertir%20cambios%20en%20Working%20Directory.md)
 		- 📄 [Revertir cambios en Staging y repositorio local](02%20Git%20and%20GitHub/2.6%20Revertir%20cambios/2.6.2%20Revertir%20cambios%20en%20Staging%20y%20repositorio%20local.md)
 		- 📄 [Archivo `.gitignore`](02%20Git%20and%20GitHub/2.6%20Revertir%20cambios/2.6.3%20Archivo%20.gitignore.md)
-
-	- **📂 08 Flujo de trabajo en un proyecto
+	- **📂 2.7 Flujo de trabajo en un proyecto**
 		- 📄 [Configuración de repositorios para un nuevo proyecto]
 		- 📄 [Habilitar workflow de DevOps en la rama Dev]
 		- 📄 [Merging de Dev a UAT]
