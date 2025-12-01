@@ -14,12 +14,11 @@
 		- 📄 [Fork y Pull Requests](02%20Git%20and%20GitHub/2.4%20Colaboración%20con%20otros%20desarrolladores/2.4.1%20Fork%20y%20Pull%20Requests.md)
 		- 📄 [Trabajar con repositorios privados](02%20Git%20and%20GitHub/2.4%20Colaboración%20con%20otros%20desarrolladores/2.4.2%20Trabajar%20con%20repositorios%20privados.md)
 		- 📄 [Branches protegidas y contribuyentes](02%20Git%20and%20GitHub/2.4%20Colaboración%20con%20otros%20desarrolladores/2.4.3%20Branches%20protegidas%20y%20contribuyentes.md)
-
-	- **📂 06 Commits y Branches**
-		- 📄 [Cómo funciona un commit]
-		- 📄 [Revisar commits específicos]
-		- 📄 [Estrategias de ramas en DevOps]
-		- 📄 [Resolver conflictos de merge]
+	- **📂 2.5 Commits y Branches**
+		- 📄 [Cómo funciona un commit](02%20Git%20and%20GitHub/2.5%20Commits%20y%20Branches/2.5.1%20Cómo%20funciona%20un%20Commit.md)
+		- 📄 [Revisar commits específicos](02%20Git%20and%20GitHub/2.5%20Commits%20y%20Branches/2.5.2%20Revisar%20commits%20específicos.md)
+		- 📄 [Estrategias de ramas en DevOps](02%20Git%20and%20GitHub/2.5%20Commits%20y%20Branches/2.5.3%20Estrategias%20de%20ramas%20en%20DevOps.md)
+		- 📄 [Resolver conflictos de merge](02%20Git%20and%20GitHub/2.5%20Commits%20y%20Branches/2.5.4%20Resolver%20conflictos%20de%20merge.md)
 
 	- **📂 07 Revertir cambios
 		- 📄 [Revertir cambios en Working Directory]
