@@ -6,11 +6,11 @@
 		- 📄 [2.2.1 Crear un repositorio local](02%20Git%20and%20GitHub/2.2%20Trabajando%20con%20Git%20(Local)/2.2.1%20Crear%20un%20repositorio%20local.md)
 		- 📄 [2.2.2 Etapas](02%20Git%20and%20GitHub/2.2%20Trabajando%20con%20Git%20(Local)/2.2.2%20Etapas.md)
 		- 📄 [2.2.3 Comparar cambios en el repositorio local](02%20Git%20and%20GitHub/2.2%20Trabajando%20con%20Git%20(Local)/2.2.3%20Comparar%20cambios%20en%20el%20repositorio%20local.md)
-
 	- **📂 2.3 Trabajando con GitHub (Remoto)**
-		- 📄 [Crear una cuenta y repositorio en GitHub]
-		- 📄 [Clonar, subir y actualizar cambios]
-		- 📄 [Autenticación SSH]
+		- 📄 [Crear una cuenta y repositorio en GitHub](02%20Git%20and%20GitHub/2.3%20Trabajando%20con%20GitHub%20(Remoto)/2.3.1%20Crear%20una%20cuenta%20y%20repositorio%20en%20GitHub.md)
+		- 📄 [Clonar, subir y actualizar cambios](02%20Git%20and%20GitHub/2.3%20Trabajando%20con%20GitHub%20(Remoto)/2.3.2%20Clonar,%20subir%20y%20actualizar%20cambios.md)
+		- 📄 [Autenticación SSH](02%20Git%20and%20GitHub/2.3%20Trabajando%20con%20GitHub%20(Remoto)/2.3.3%20Autenticación%20SSH.md)
+
 	- **📂 05 Colaboración con otros desarrolladores**
 		- 📄 [Fork y Pull Requests]
 		- 📄 [Trabajar con repositorios privados]
