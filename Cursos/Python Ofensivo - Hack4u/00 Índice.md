@@ -11,3 +11,7 @@
 	- 📄 [4.6 - Decoradores y properties](04%20Programación%20Orientada%20a%20Objetos%20(POO)/06%20Decoradores%20y%20properties.md)
 - **📂 05 - Módulos y Paquetes**
 	- 📄 [5.1 - Organización en módulos](05%20Módulos%20y%20Paquetes/01%20Organización%20en%20módulos.md)
+
+- **📂 10 - Python Ofensivo**
+	- 📄 [10.13 - Keylogger](10%20Python%20Ofensivo/10.13%20Keylogger%20⌨.md)
+	- 📄 [10.13 - Malware](10%20Python%20Ofensivo/10.14%20Malware%20💀.md)
