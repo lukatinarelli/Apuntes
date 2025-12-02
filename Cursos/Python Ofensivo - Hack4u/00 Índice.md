@@ -15,3 +15,4 @@
 - **📂 10 - Python Ofensivo**
 	- 📄 [10.13 - Keylogger](10%20Python%20Ofensivo/10.13%20Keylogger%20⌨.md)
 	- 📄 [10.13 - Malware](10%20Python%20Ofensivo/10.14%20Malware%20💀.md)
+	- 📄 [10.14 - 10.15 Command and Control](10%20Python%20Ofensivo/10.15%20Command%20and%20Control%20🛰️.md)
