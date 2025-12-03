@@ -516,4 +516,4 @@ Los diccionarios son extremadamente rápidos para buscar por clave (O(1) promedi
 
 ---
 
-🔙 [Volver al índice](00%20Índice.md)
+🔙 [Volver al índice](Cursos/Python%20Ofensivo%20-%20Hack4u/00%20Índice.md)

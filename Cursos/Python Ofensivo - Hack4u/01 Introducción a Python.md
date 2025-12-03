@@ -56,4 +56,4 @@ Es un lenguaje **interpretado**, lo que significa que el código no se transform
 
 ---
 
-🔙 [Volver al índice](00%20Índice.md)
+🔙 [Volver al índice](Cursos/Python%20Ofensivo%20-%20Hack4u/00%20Índice.md)
