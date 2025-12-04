@@ -40,10 +40,6 @@ Aquí encontrarás mis apuntes completos organizados por curso, cada uno con su 
 - **📂 02 - Reconocimiento**
 	- 📄 [2.1 - Nmap](Cursos/Introducci%C3%B3n%20al%20Hacking%20-%20Hack4u/02%20Reconocimiento/2.1%20Nmap.md)
 
-
-
-
-
 * **📂 Python Ofensivo - Hack4u** :construction: En proceso :construction:
   * 📄 [00 Índice](Cursos/Python%20Ofensivo%20-%20Hack4u/00%20%C3%8Dndice.md)
   * 📄 [01 Introducción a Python](Cursos/Python%20Ofensivo%20-%20Hack4u/01%20Introducci%C3%B3n%20a%20Python.md)
