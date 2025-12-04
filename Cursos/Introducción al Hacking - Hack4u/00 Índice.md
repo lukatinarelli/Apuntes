@@ -6,5 +6,5 @@
 	- 📄 [1.4 - El modelo OSI](01%20Conceptos%20básicos/1.4%20El%20modelo%20OSI.md)
 	- 📄 [1.5 - Subnetting](01%20Conceptos%20básicos/1.5%20Subnetting.md)
 - **📂 02 - Reconocimiento**
-	- 📄 [2.1 - Nmap](2.1%20Nmap.md)
+	- 📄 [2.1 - Nmap](02%20Reconocimiento/2.1%20Nmap.md)
 
