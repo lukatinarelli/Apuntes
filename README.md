@@ -33,7 +33,7 @@ Cada curso tiene su propio índice y materiales asociados.
 | Curso | Estado | Contenido principal |
 |-------|--------|-------------------|
 | 📂 **[Ansible desde Cero](Cursos/Ansible%20desde%20Cero)** | ⚠️ Abandonado | Documentación básica |
-| 📂 **[DevOps Introduction - O'Reilly](Cursos/DevOps%20Introduction%20-%20O'Reilly)** | 🚧 En proceso | Git, Jenkins, Ansible, Docker, Kubernetes, etc. |
+| 📂 **[DevOps Introduction - O'Reilly](Cursos/DevOps%20Introduction%20-%20O'Reilly)** | 🚧 En proceso | Git, Jenkins, Ansible, Docker, Kubernetes, Prometheus, etc. |
 | 📂 **[Introducción a Linux - Hack4u](Cursos/Introducción%20a%20Linux%20-%20Hack4u)** | ✅ Completo | Comandos básicos, permisos, descriptores |
 | 📂 **[Introducción al Hacking - Hack4u](Cursos/Introducción%20al%20Hacking%20-%20Hack4u)** | 🚧 En proceso |  |
 | 📂 **[Python Ofensivo - Hack4u](Cursos/Python%20Ofensivo%20-%20Hack4u)** | 🚧 En proceso | Fundamentos, POO, Módulos y Paquetes |
