@@ -73,7 +73,7 @@ Cada curso incluye:
 
 ## ⚖️ Licencia
 
-Este repositorio está bajo **Creative Commons BY-NC-SA 4.0**:
+Este repositorio está bajo **[Creative Commons BY-NC-SA 4.0](LICENSE)**:
 
 - Puedes compartir y adaptar el contenido  
 - Debes dar **crédito** al autor  
