@@ -10,7 +10,7 @@ Todo el contenido está escrito por mí, con explicaciones claras, esquemas y no
 Aquí encontrarás mis apuntes completos organizados por curso, cada uno con su propio índice y materiales asociados.
 ### **`Cursos/`**
 
-* **📂 Ansible desde Cero** :construction: En proceso :construction:
+* **📂 Ansible desde Cero** :warning: Abandonado :warning:
   * 📄 [00 Índice](Cursos/Ansible%20desde%20Cero/00%20%C3%8Dndice.md)
   * 📄 [01 Comandos Ad-hoc en Ansible](Cursos/Ansible%20desde%20Cero/01%20Comandos%20Ad-hoc%20en%20Ansible.md)
   * 📄 [02 Escalada de privilegios en Ansible](Cursos/Ansible%20desde%20Cero/02%20Escalada%20de%20privilegios%20en%20Ansible.md)
