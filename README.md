@@ -2,7 +2,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-EN%20DESARROLLO-green?style=for-the-badge">
-  <img alt="License" src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-blue?style=for-the-badge">
+  <a href="https://github.com/lukatinarelli/Apuntes/blob/master/LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-blue?style=for-the-badge">
+  </a>
   <img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/lukatinarelli/Apuntes?style=for-the-badge&color=yellow">
 </p>
