@@ -1,9 +1,9 @@
 # Reconocimiento 0/17
 
 - [x] Nmap y sus diferentes modos de escaneo
-- [ ] Técnicas de evasión de Firewalls (MTU, Data Length, Source Port, Decoy, etc.)
+- [x] Técnicas de evasión de Firewalls (MTU, Data Length, Source Port, Decoy, etc.)
 	- firewall, ids
-- [ ] Uso de scripts y categorías en nmap para aplicar reconocimiento
+- [x] Uso de scripts y categorías en nmap para aplicar reconocimiento
 - [ ] Creación de tus propios scripts en Lua para nmap
 - [ ] Alternativas para la enumeración de puertos usando descriptores de archivo
 - [ ] Descubrimiento de equipos en la red local (ARP e ICMP) y Tips
