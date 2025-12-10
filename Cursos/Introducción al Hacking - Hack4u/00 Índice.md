@@ -7,4 +7,5 @@
 	- 📄 [1.5 - Subnetting](01%20Conceptos%20básicos/1.5%20Subnetting.md)
 - **📂 02 - Reconocimiento**
 	- 📄 [2.1 - Nmap](02%20Reconocimiento/2.1%20Nmap.md)
+	- 📄 [2.2 - Nmap — Evasión de Firewalls y Técnicas de Stealth](02%20Reconocimiento/2.2%20Nmap%20—%20Evasión%20de%20Firewalls%20y%20Técnicas%20de%20Stealth.md)
 
