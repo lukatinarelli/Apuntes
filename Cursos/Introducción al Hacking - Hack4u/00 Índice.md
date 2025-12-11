@@ -9,4 +9,6 @@
 	- 📄 [2.1 - Nmap — Escaneo Básico](02%20Reconocimiento/2.1%20Nmap.md)
 	- 📄 [2.2 - Nmap — Evasión de Firewalls y Técnicas de Stealth](02%20Reconocimiento/2.2%20Nmap%20—%20Evasión%20de%20Firewalls%20y%20Técnicas%20de%20Stealth.md)
 	- 📄 [2.3 - Nmap — Scripts y NSE](02%20Reconocimiento/2.3%20Nmap%20-%20Uso%20de%20Scripts%20y%20NSE.md)
-
+	- 📄 [2.4 - Puertos — Escaneo con /dev/tcp](02%20Reconocimiento/2.4%20Puertos%20-%20Escaneo%20con%20dev%20tcp.md)
+	- 📄 [2.5 - Descubrimiento — Hosts y Herramientas Avanzadas](02%20Reconocimiento/2.5%20Descubrimiento%20-%20Hosts%20y%20Herramientas%20Avanzadas.md)
+	- 📄 [2.6 - Alcance — Validación HackerOne](02%20Reconocimiento/2.6%20Alcance%20-%20Validacion%20HackerOne.md)
