@@ -6,9 +6,10 @@
 	- Creación de tus propios scripts en Lua para nmap
 - [x] Alternativas para la enumeración de puertos usando descriptores de archivo
 - [x] Descubrimiento de equipos en la red local (ARP e ICMP) y Tips
-- [ ] Validación del objetivo (Fijando un target en HackerOne)
-- [ ] Descubrimiento de correos electrónicos
-- [ ] Reconocimiento de imágenes
+- [x] Validación del objetivo (Fijando un target en HackerOne)
+- [x] Emails y Reconocimiento Facial
+	- Descubrimiento de correos electrónicos
+	- Reconocimiento de imágenes
 - [ ] Enumeración de subdominios
 - [ ] Credenciales y brechas de seguridad
 - [ ] Identificación de las tecnologías en una página web

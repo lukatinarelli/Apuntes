@@ -12,3 +12,5 @@
 	- 📄 [2.4 - Puertos — Escaneo con /dev/tcp](02%20Reconocimiento/2.4%20Puertos%20-%20Escaneo%20con%20dev%20tcp.md)
 	- 📄 [2.5 - Descubrimiento — Hosts y Herramientas Avanzadas](02%20Reconocimiento/2.5%20Descubrimiento%20-%20Hosts%20y%20Herramientas%20Avanzadas.md)
 	- 📄 [2.6 - Alcance — Validación HackerOne](02%20Reconocimiento/2.6%20Alcance%20-%20Validacion%20HackerOne.md)
+	- 📄 [2.7 - OSINT — Emails y Reconocimiento Facial](02%20Reconocimiento/2.7%20OSINT%20-%20Emails%20y%20Reconocimiento%20Facial.md)
+
