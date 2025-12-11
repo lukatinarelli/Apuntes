@@ -2,11 +2,10 @@
 
 - [x] Nmap y sus diferentes modos de escaneo
 - [x] Técnicas de evasión de Firewalls (MTU, Data Length, Source Port, Decoy, etc.)
-	- firewall, ids
 - [x] Uso de scripts y categorías en nmap para aplicar reconocimiento
-- [ ] Creación de tus propios scripts en Lua para nmap
-- [ ] Alternativas para la enumeración de puertos usando descriptores de archivo
-- [ ] Descubrimiento de equipos en la red local (ARP e ICMP) y Tips
+	- Creación de tus propios scripts en Lua para nmap
+- [x] Alternativas para la enumeración de puertos usando descriptores de archivo
+- [x] Descubrimiento de equipos en la red local (ARP e ICMP) y Tips
 - [ ] Validación del objetivo (Fijando un target en HackerOne)
 - [ ] Descubrimiento de correos electrónicos
 - [ ] Reconocimiento de imágenes
