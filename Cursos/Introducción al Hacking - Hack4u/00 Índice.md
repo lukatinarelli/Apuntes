@@ -15,6 +15,6 @@
 	- 📄 [2.7 - OSINT — Emails y Reconocimiento Facial](02%20Reconocimiento/2.07%20OSINT%20-%20Emails%20y%20Reconocimiento%20Facial.md)
 	- 📄 [2.8 - Credenciales — Brechas de Seguridad y DeHashed](02%20Reconocimiento/2.08%20Credenciales%20—%20Brechas%20de%20Seguridad%20y%20DeHashed.md)
 	- 📄 [2.9 - Enumeración de Subdominios](02%20Reconocimiento/2.09%20Enumeracion%20de%20Subdominios.md)
-	- 📄 [2.9 - Enumeración de Subdominios](02%20Reconocimiento/2.10%20Reconocimiento%20de%20Tecnología%20—%20whatweb%20y%20Wappalyzer.md)
+	- 📄 [2.10 - Reconocimiento de Tecnología — whatweb y Wappalyzer](02%20Reconocimiento/2.10%20Reconocimiento%20de%20Tecnología%20—%20whatweb%20y%20Wappalyzer.md)
 
 
