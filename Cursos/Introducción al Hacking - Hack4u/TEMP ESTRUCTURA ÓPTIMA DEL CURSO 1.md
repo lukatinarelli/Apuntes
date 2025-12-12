@@ -12,7 +12,7 @@
 	- Reconocimiento de imágenes
 - [x] Credenciales y brechas de seguridad
 - [x] Enumeración de subdominios
-- [ ] Identificación de las tecnologías en una página web
+- [x] Identificación de las tecnologías en una página web
 - [ ] Fuzzing y enumeración de archivos en un servidor web
 - [ ] Google Dorks / Google Hacking (Los 18 Dorks más usados)
 - [ ] Identificación y verificación externa de la versión del sistema operativo

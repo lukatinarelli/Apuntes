@@ -6,9 +6,9 @@
 	- 📄 [1.4 - El modelo OSI](01%20Conceptos%20básicos/1.4%20El%20modelo%20OSI.md)
 	- 📄 [1.5 - Subnetting](01%20Conceptos%20básicos/1.5%20Subnetting.md)
 - **📂 02 - Reconocimiento**
-	- 📄 [2.1 - Nmap — Escaneo Básico](02%20Reconocimiento/2.01%20Nmap%20—%20Escaneo%20Basico.md)
-	- 📄 [2.2 - Nmap — Evasión de Firewalls y Stealth](02%20Reconocimiento/2.02%20Nmap%20—%20Evasion%20de%20Firewalls.md)
-	- 📄 [2.3 - Nmap — Scripts y NSE](02%20Reconocimiento/2.03%20Nmap%20—%20Uso%20de%20Scripts%20NSE.md)
+	- 📄 [2.1 - Nmap — Escaneo Básico](02%20Reconocimiento/2.01%20Nmap%20—%20Escaneo%20Básico.md)
+	- 📄 [2.2 - Nmap — Evasión de Firewalls y Técnicas de Stealth](02%20Reconocimiento/2.02%20Nmap%20—%20Evasión%20de%20Firewalls%20y%20Técnicas%20de%20Stealth.md)
+	- 📄 [2.3 - Nmap — Uso de Scripts y NSE](02%20Reconocimiento/2.03%20Nmap%20—%20Uso%20de%20Scripts%20y%20NSE.md)
 	- 📄 [2.4 - Puertos — Escaneo con /dev/tcp](02%20Reconocimiento/2.04%20Puertos%20—%20Escaneo%20con%20dev%20tcp.md)
 	- 📄 [2.5 - Descubrimiento — Hosts y Herramientas Avanzadas](02%20Reconocimiento/2.05%20Descubrimiento%20—%20Hosts%20y%20Herramientas%20Avanzadas.md)
 	- 📄 [2.6 - Alcance — Validación HackerOne](02%20Reconocimiento/2.06%20Alcance%20—%20Validacion%20HackerOne.md)
