@@ -1,3 +1,9 @@
+# 📚 Contexto
+
+Esta nota detalla los puntos clave de una **formación interna** recibida en el entorno laboral. Cubre los fundamentos de la administración de sistemas Linux, incluyendo la gestión de software (Java/Python), la monitorización de recursos (`top`, `ps`, `df`), y la introducción a la tecnología de contenedores (Docker).
+
+---
+
 # 💻 Entornos de Desarrollo: Java y Python
 
 ## 📚 Explicación teórica
