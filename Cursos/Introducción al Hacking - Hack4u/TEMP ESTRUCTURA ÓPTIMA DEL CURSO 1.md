@@ -10,7 +10,7 @@
 - [x] Emails y Reconocimiento Facial
 	- Descubrimiento de correos electrónicos
 	- Reconocimiento de imágenes
-- [ ] Enumeración de subdominios
+- [x] Enumeración de subdominios
 - [ ] Credenciales y brechas de seguridad
 - [ ] Identificación de las tecnologías en una página web
 - [ ] Fuzzing y enumeración de archivos en un servidor web
