@@ -28,4 +28,12 @@
 		- 📄 [Habilitar workflow de DevOps en la rama Dev](02%20Git%20and%20GitHub/2.7%20Flujo%20de%20trabajo%20en%20un%20proyecto/2.7.2%20Habilitar%20workflow%20de%20DevOps%20en%20la%20rama%20Dev.md)
 		- 📄 [Merging de Dev a UAT](02%20Git%20and%20GitHub/2.7%20Flujo%20de%20trabajo%20en%20un%20proyecto/2.7.3%20Merging%20de%20Dev%20a%20UAT.md)
 		- 📄 [Liberación de código en producción](02%20Git%20and%20GitHub/2.7%20Flujo%20de%20trabajo%20en%20un%20proyecto/2.7.4%20Liberación%20de%20código%20en%20producción.md)
+  * **📂 03 Maven**
+	- **📂 3.1 Fundamentos y Estructura (Local)**
+		- 📄 [Introducción y Configuración de Entorno]()
+		- 📄 [Estructura del Proyecto y Coordenadas]
+	- **📂 3.2 El Motor de Maven: POM y Ciclo de Vida**
+		- 📄 [El archivo pom.xml y Dependencias]
+		- 📄 [Ciclo de Vida (Lifecycle) y Goals]
+
 
