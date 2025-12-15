@@ -30,7 +30,7 @@
 		- 📄 [Liberación de código en producción](02%20Git%20and%20GitHub/2.7%20Flujo%20de%20trabajo%20en%20un%20proyecto/2.7.4%20Liberación%20de%20código%20en%20producción.md)
   * **📂 03 Maven**
 	- **📂 3.1 Fundamentos y Estructura (Local)**
-		- 📄 [Introducción y Configuración de Entorno]()
+		- 📄 [Introducción y Configuración de Entorno](03%20Maven%20Build%20Tool/3.1%20Fundamentos%20y%20Estructura%20(Local)/3.1.1%20Introducción%20y%20Configuración.md)
 		- 📄 [Estructura del Proyecto y Coordenadas]
 	- **📂 3.2 El Motor de Maven: POM y Ciclo de Vida**
 		- 📄 [El archivo pom.xml y Dependencias]
