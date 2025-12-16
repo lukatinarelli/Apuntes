@@ -12,6 +12,7 @@ _Aquí agrupamos la teoría, la instalación en tu PC y cómo se organiza un pro
     
     - _Videos:_ Create First Maven Project, Maven Coordinates (GAV), Default Directory Structure, Create Project with Archetype.
 
+
 #### **📂 3.2 El Motor de Maven: POM y Ciclo de Vida**
 
 _El corazón teórico. Entender cómo Maven construye y gestiona librerías._
@@ -23,6 +24,7 @@ _El corazón teórico. Entender cómo Maven construye y gestiona librerías._
 - 📄 **[3.2.2 Ciclo de Vida (Lifecycle) y Goals](https://www.google.com/search?q=03%2520Maven/3.2%2520Core/3.2.2%2520Ciclo%2520de%2520Vida%2520y%2520Goals.md)**
     
     - _Videos:_ Steps involved in Building, Maven Goals, Goals in Action, Command Maven Goals.
+
 
 #### **📂 3.3 Maven en Servidores (Linux & Deploy)**
 
