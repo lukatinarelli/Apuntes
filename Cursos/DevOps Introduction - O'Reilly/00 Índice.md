@@ -20,7 +20,7 @@
 		- 📄 [2.5.3 Estrategias de ramas en DevOps](02%20Git%20and%20GitHub/2.5%20Commits%20y%20Branches/2.5.3%20Estrategias%20de%20ramas%20en%20DevOps.md)
 		- 📄 [2.5.4 Resolver conflictos de merge](02%20Git%20and%20GitHub/2.5%20Commits%20y%20Branches/2.5.4%20Resolver%20conflictos%20de%20merge.md)
 	- **📂 2.6 Revertir cambios**
-		- 📄 [2.6.1Revertir cambios en Working Directory](02%20Git%20and%20GitHub/2.6%20Revertir%20cambios/2.6.1%20Revertir%20cambios%20en%20Working%20Directory.md)
+		- 📄 [2.6.1 Revertir cambios en Working Directory](02%20Git%20and%20GitHub/2.6%20Revertir%20cambios/2.6.1%20Revertir%20cambios%20en%20Working%20Directory.md)
 		- 📄 [2.6.2 Revertir cambios en Staging y repositorio local](02%20Git%20and%20GitHub/2.6%20Revertir%20cambios/2.6.2%20Revertir%20cambios%20en%20Staging%20y%20repositorio%20local.md)
 		- 📄 [2.6.3 Archivo `.gitignore`](02%20Git%20and%20GitHub/2.6%20Revertir%20cambios/2.6.3%20Archivo%20.gitignore.md)
 	- **📂 2.7 Flujo de trabajo en un proyecto**
