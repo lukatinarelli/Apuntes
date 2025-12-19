@@ -1,1 +1,7 @@
 *.md linguist-language=Markdown linguist-detectable=true
+
+*.py linguist-vendored
+*.sh linguist-vendored
+*.lua linguist-vendored
+Dockerfile linguist-vendored
+*.hcl linguist-vendored
