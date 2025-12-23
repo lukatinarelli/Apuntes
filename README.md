@@ -44,7 +44,9 @@ Cada curso tiene su propio índice y materiales asociados.
 | 📂 **[Introducción al Hacking - Hack4u](Cursos/Introducción%20al%20Hacking%20-%20Hack4u/00%20Índice.md)** | 🚧 En proceso |                                                             |
 
 > [!TIP]
-> Cada curso contiene su **índice propio** en Markdown para navegar fácilmente en GitHub o en Obsidian.
+> Cada curso contiene su **índice propio** para navegar fácilmente.
+> * Los apuntes de teoría usan **Markdown** (GitHub/Obsidian).
+> * Los cursos de programación usan **Jupyter Notebooks** (.ipynb) para ejecutar código.
 
 ### 2️⃣ Recursos
 Material adicional creado para complementar los cursos:
@@ -62,11 +64,12 @@ Material adicional creado para complementar los cursos:
 
 Cada curso incluye:
 
-- Explicaciones detalladas en **Markdown**  
-- Comandos listos para copiar/pegar  
-- Ejemplos prácticos aplicables en entornos reales  
-- Esquemas, tablas y resúmenes visuales  
-- Referencias y enlaces útiles  
+- Explicaciones detalladas en **Markdown (.md)**
+- **Jupyter Notebooks (.ipynb)** para ejecución de código interactivo
+- Comandos listos para copiar/pegar
+- Ejemplos prácticos aplicables en entornos reales
+- Esquemas, tablas y resúmenes visuales
+- Referencias y enlaces útiles
 - Ejercicios y notas personales
 
 > [!IMPORTANT]
@@ -109,7 +112,7 @@ Sugerencias, mejoras o correcciones son bienvenidas:
 
 ## 📬 Contacto
 
-Puedes contactarme vía GitHub desde mi perfil.
+Puedes contactarme desde mi perfil.
 
 ---
 
