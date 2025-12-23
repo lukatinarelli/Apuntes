@@ -1,6 +1,6 @@
 # Índice Python Ofensivo
-- 📄 [01 - Introducción a Python](01%20Introducción%20a%20Python.md)
-- 📓 [02 - Conceptos Básicos de Python 🐍](https://colab.research.google.com/github/lukatinarelli/Apuntes/blob/master/Cursos/Python%20Ofensivo%20-%20Hack4u/02%20Conceptos%20B%C3%A1sicos%20de%20Python%20%F0%9F%90%8D.ipynb)
+- 📓 [01 - Introducción a Python 🐍](https://colab.research.google.com/github/lukatinarelli/Apuntes/blob/master/Cursos/Python%20Ofensivo%20-%20Hack4u/01%20Introducci%C3%B3n%20a%20Python%20%F0%9F%90%8D.ipynb)
+- 📓 [02 - Conceptos Básicos de Python 🧱](https://colab.research.google.com/github/lukatinarelli/Apuntes/blob/master/Cursos/Python%20Ofensivo%20-%20Hack4u/02%20Conceptos%20B%C3%A1sicos%20de%20Python%20%F0%9F%A7%B1.ipynb)
 - 📓 [03 - Colecciones y Estructuras de Datos 📚](https://colab.research.google.com/github/lukatinarelli/Apuntes/blob/master/Cursos/Python%20Ofensivo%20-%20Hack4u/03%20Colecciones%20y%20Estructuras%20de%20Datos%20📚.ipynb)
 - **📂 04 - Programación Orientada a Objetos (POO)**
 	- 📓 [4.1 - Clases y Objetos 🏗️](https://colab.research.google.com/github/lukatinarelli/Apuntes/blob/master/Cursos/Python%20Ofensivo%20-%20Hack4u/04%20Programaci%C3%B3n%20Orientada%20a%20Objetos%20(POO)/01%20Clases%20y%20Objetos%20%F0%9F%8F%97%EF%B8%8F.ipynb)
