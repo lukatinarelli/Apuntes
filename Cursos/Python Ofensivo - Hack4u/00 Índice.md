@@ -8,7 +8,7 @@
 	* 📓 [4.3 - Comprendiendo self 🪞](https://colab.research.google.com/github/lukatinarelli/Apuntes/blob/master/Cursos/Python%20Ofensivo%20-%20Hack4u/04%20Programaci%C3%B3n%20Orientada%20a%20Objetos%20(POO)/03%20Comprendiendo%20self%20%F0%9F%AA%9E.ipynb)
 	* 📓 [4.4 - Herencia y polimorfismo 🧬](https://colab.research.google.com/github/lukatinarelli/Apuntes/blob/master/Cursos/Python%20Ofensivo%20-%20Hack4u/04%20Programaci%C3%B3n%20Orientada%20a%20Objetos%20(POO)/04%20Herencia%20y%20polimorfismo%20%F0%9F%A7%AC.ipynb)
 	* 📓 [4.5 - Encapsulamiento y métodos especiales 🔐](https://colab.research.google.com/github/lukatinarelli/Apuntes/blob/master/Cursos/Python%20Ofensivo%20-%20Hack4u/04%20Programaci%C3%B3n%20Orientada%20a%20Objetos%20(POO)/05%20Encapsulamiento%20y%20m%C3%A9todos%20especiales%20%F0%9F%94%90.ipynb)
-	* 📄 [4.6 - Decoradores y properties](04%20Programación%20Orientada%20a%20Objetos%20(POO)/06%20Decoradores%20y%20properties.md)
+	* 📄 [4.6 - Decoradores y properties 🪄](https://colab.research.google.com/github/lukatinarelli/Apuntes/blob/master/Cursos/Python%20Ofensivo%20-%20Hack4u/04%20Programaci%C3%B3n%20Orientada%20a%20Objetos%20(POO)/06%20Decoradores%20y%20properties%20%F0%9F%AA%84.ipynb)
 
 - **📂 05 - Módulos y Paquetes**
 	* 📄 [5.1 - Organización en módulos](05%20Módulos%20y%20Paquetes/01%20Organización%20en%20módulos.md)
