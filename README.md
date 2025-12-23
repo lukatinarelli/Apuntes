@@ -37,11 +37,11 @@ Cada curso tiene su propio índice y materiales asociados.
 
 | Curso                                                                                                     | Estado        |  Formato     | Contenido principal                                 |
 | --------------------------------------------------------------------------------------------------------- | ------------- |  ----------- | --------------------------------------------------- |
-| 📂 **Ansible desde Cero**                                                                                 | ⚠️ Abandonado |  📄 Markdown | Documentación básica                                |
-| 📂 **[DevOps Introduction - O'Reilly](Cursos/DevOps%20Introduction%20-%20O'Reilly/00%20Índice.md)**       | 🚧 En proceso |  📄 Markdown | Git, Jenkins, Ansible, Kubernetes, Prometheus, etc. |
-| 📂 **[Introducción a Linux - Hack4u](Cursos/Introducción%20a%20Linux%20-%20Hack4u/00%20Índice.md)**       | ✅ Completado |  📄 Markdown | Comandos básicos, permisos, descriptores            |
-| 📂 **[Python Ofensivo - Hack4u](Cursos/Python%20Ofensivo%20-%20Hack4u/00%20Índice.md)**                   | 🚧 En proceso |  📓 Jupyter  | Fundamentos, POO, Módulos y Paquetes                |
-| 📂 **[Introducción al Hacking - Hack4u](Cursos/Introducción%20al%20Hacking%20-%20Hack4u/00%20Índice.md)** | 🚧 En proceso |  📄 Markdown |                                                     |
+| 📂 **Ansible desde Cero**                                                                                 | ⚠️Abandonado |  📄Markdown | Documentación básica                                |
+| 📂 **[DevOps Introduction - O'Reilly](Cursos/DevOps%20Introduction%20-%20O'Reilly/00%20Índice.md)**       | 🚧En proceso |  📄Markdown | Git, Jenkins, Ansible, Kubernetes, Prometheus, etc. |
+| 📂 **[Introducción a Linux - Hack4u](Cursos/Introducción%20a%20Linux%20-%20Hack4u/00%20Índice.md)**       | ✅Completado |  📄Markdown | Comandos básicos, permisos, descriptores            |
+| 📂 **[Python Ofensivo - Hack4u](Cursos/Python%20Ofensivo%20-%20Hack4u/00%20Índice.md)**                   | 🚧En proceso |  📓Jupyter  | Fundamentos, POO, Módulos y Paquetes                |
+| 📂 **[Introducción al Hacking - Hack4u](Cursos/Introducción%20al%20Hacking%20-%20Hack4u/00%20Índice.md)** | 🚧En proceso |  📄Markdown |                                                     |
 
 > [!TIP]
 > Cada curso contiene su **índice propio** para navegar fácilmente.
