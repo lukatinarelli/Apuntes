@@ -92,4 +92,4 @@ comando_ruidoso > /dev/null 2>&1
 
 ---
 
-🔙 [Volver al índice](Cursos/Introducción%20a%20Linux%20-%20Hack4u/00%20Índice.md)
+🔙 [Volver al índice](00%20Índice.md)
