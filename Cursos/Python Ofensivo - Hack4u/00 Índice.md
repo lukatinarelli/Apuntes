@@ -11,7 +11,7 @@
 	* 📓 [4.6 - Decoradores y properties 🪄](https://colab.research.google.com/github/lukatinarelli/Apuntes/blob/master/Cursos/Python%20Ofensivo%20-%20Hack4u/04%20Programaci%C3%B3n%20Orientada%20a%20Objetos%20(POO)/06%20Decoradores%20y%20properties%20%F0%9F%AA%84.ipynb)
 
 - **📂 05 - Módulos y Paquetes**
-	* 📄 [5.1 - Organización en módulos](05%20Módulos%20y%20Paquetes/01%20Organización%20en%20módulos.md)
+	* 📓 [5.1 - Organización del código en módulos 🧩](https://colab.research.google.com/github/lukatinarelli/Apuntes/blob/master/Cursos/Python%20Ofensivo%20-%20Hack4u/05%20M%C3%B3dulos%20y%20Paquetes/01%20Organizaci%C3%B3n%20del%20c%C3%B3digo%20en%20m%C3%B3dulos%20%F0%9F%A7%A9.ipynb)
 
 - **📂 10 - Python Ofensivo**
 	* 📄 [10.13 - Keylogger](10%20Python%20Ofensivo/10.13%20Keylogger%20⌨.md)
