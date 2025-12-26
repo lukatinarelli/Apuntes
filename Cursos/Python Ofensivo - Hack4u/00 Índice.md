@@ -13,6 +13,7 @@
 - **📂 05 - Módulos y Paquetes**
 	* 📓 [5.1 - Organización del código en módulos 🧩](https://colab.research.google.com/github/lukatinarelli/Apuntes/blob/master/Cursos/Python%20Ofensivo%20-%20Hack4u/05%20M%C3%B3dulos%20y%20Paquetes/01%20Organizaci%C3%B3n%20del%20c%C3%B3digo%20en%20m%C3%B3dulos%20%F0%9F%A7%A9.ipynb)
 	* 📓 [5.2 - Importación y uso de módulos 📥](https://colab.research.google.com/github/lukatinarelli/Apuntes/blob/master/Cursos/Python%20Ofensivo%20-%20Hack4u/05%20M%C3%B3dulos%20y%20Paquetes/02%20Importaci%C3%B3n%20y%20uso%20de%20m%C3%B3dulos%20%F0%9F%93%A5.ipynb)
+	* 📓 [5.3 - Creación y distribución de paquetes 📦](https://colab.research.google.com/github/lukatinarelli/Apuntes/blob/master/Cursos/Python%20Ofensivo%20-%20Hack4u/05%20M%C3%B3dulos%20y%20Paquetes/03%20Creaci%C3%B3n%20y%20distribuci%C3%B3n%20de%20paquetes%20%F0%9F%93%A6.ipynb)
 
 - **📂 10 - Python Ofensivo**
 	* 📄 [10.13 - Keylogger](10%20Python%20Ofensivo/10.13%20Keylogger%20⌨.md)
