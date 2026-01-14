@@ -15,10 +15,10 @@
 <p align="center">
   <a href="https://www.udemy.com/">
     <img alt="Udemy" src="https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=Udemy&logoColor=white"></a>
-  <a href="https://www.markdownguide.org/">
-    <img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white"></a>
-  <a href="https://docs.jupyter.org">
-    <img alt="Jupyter Notebook" src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"></a>
+  <a href="https://www.oreilly.com/">
+    <img alt="O'Reilly" src="https://img.shields.io/badge/O'Reilly-%23D30000.svg?style=for-the-badge&logo=o%27reilly&logoColor=F1F1F1"></a>
+  <a href="https://hack4u.io/">
+    <img alt="Hack4u" src="https://img.shields.io/badge/Hack4u-FF002B?style=for-the-badge"></a>
 </p>
 
 ---
