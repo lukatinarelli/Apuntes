@@ -19,5 +19,6 @@
 	- 📄 [2.11 - Fuzzing — Gobuster, Wfuzz, Ffuf y BurpSuite](02%20Reconocimiento/2.11%20Fuzzing%20—%20Gobuster%2C%20Wfuzz%2C%20Ffuf%20y%20BurpSuite.md)
 	- 📄 [2.12 - Google Dorking — Pentest-Tools y GHDB](02%20Reconocimiento/2.12%20Google%20Dorking%20—%20Pentest-Tools%20y%20GHDB.md)
 	- 📄 [2.13 - Identificación de OS mediante TTL](02%20Reconocimiento/2.13%20Identificación%20de%20OS.md)
-
+- **📂 03 - Configuración de laboratorios locales en Docker**
+	- 📄 [3.1 - Introducción y Configuración de Docker](03%20Configuración%20de%20laboratorios%20locales%20en%20Docker/3.01%20Introducción%20y%20Configuración.md)
 
