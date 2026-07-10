@@ -21,4 +21,12 @@
 	- 📄 [2.13 - Identificación de OS mediante TTL](02%20Reconocimiento/2.13%20Identificación%20de%20OS.md)
 - **📂 03 - Configuración de laboratorios locales en Docker**
 	- 📄 [3.1 - Introducción y Configuración de Docker](03%20Configuración%20de%20laboratorios%20locales%20en%20Docker/3.1%20Introducción%20y%20Configuración.md)
+- **📂 04 - Enumeración de Servicios
+	- 📄 [4.01 - Enumeración de FTP y SSH]()
+	- 📄 [4.02 - Enumeración de HTTP y HTTPS]()
+	- 📄 [4.03 - Enumeración de SMB]()
+	- 📄 [4.04 - CMS I: WordPress]()
+	- 📄 [4.05 - CMS II: Joomla, Drupal y Magento]()
+	- 📄 [4.06 - Workflow: Toma de apuntes con Obsidian]()
+
 
